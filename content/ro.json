@@ -41,7 +41,7 @@
     "webcam": "https://sinaiago.ro/",
     "mapEmbed": "https://www.google.com/maps?q=Strada+Octavian+Goga+1,+Sinaia&output=embed",
     "mapOpen": "https://www.google.com/maps/search/?api=1&query=Strada+Octavian+Goga+1+Sinaia",
-    "gondolaFacebook": "[LINK FACEBOOK GONDOLA SINAIA - de dat de Edi, pagina, nu căutarea]"
+    "gondolaFacebook": "https://www.facebook.com/share/1A3qyiqGR3/"
   },
   "prices": {
     "full": 60,
