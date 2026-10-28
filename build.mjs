@@ -99,7 +99,7 @@ ${alternates}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/css/site.css">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
 </head>
@@ -129,6 +129,10 @@ ${nav}
 function footer(c, lang) {
   const nav = c.nav.filter(n => !n.slug.startsWith('#')).map(n => `<a href="${url(lang, n.slug)}">${esc(n.label)}</a>`).join('\n') + `\n<a href="${url(lang, '#contact')}">Contact</a>`;
   return `</main>
+<div class="mobile-bar" aria-label="${esc(c.ui.reserve)} / WhatsApp">
+<a class="btn btn-primary" href="${url(lang, '#rezervare')}">${esc(c.ui.reserve)}</a>
+<a class="btn btn-wa" href="${wa(c.phones.rental.wa)}" target="_blank" rel="noopener" aria-label="WhatsApp">${icon('wa', 22)}</a>
+</div>
 <footer class="site-footer">
 <div class="wrap">
 <span>${esc(c.brand)}, ${esc(c.legal)}. ${esc(c.addressLine)}.</span>
