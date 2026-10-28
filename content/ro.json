@@ -1,0 +1,323 @@
+{
+  "lang": "ro",
+  "dir": "ltr",
+  "locale": "ro_RO",
+  "brand": "Centru de închirieri Ski & Snowboard Sinaia",
+  "brandShort": "Centru de închirieri\nSki & Snowboard Sinaia",
+  "legal": "Frățilă Gh. Cornel PFA",
+  "address": "Str. Octavian Goga nr. 1, Sinaia, Prahova",
+  "addressLine": "Str. Octavian Goga nr. 1, Sinaia",
+  "hours": "Zilnic 08:00 - 18:00, pe toată durata sezonului de ski",
+  "phones": {
+    "rental": {"display": "+40 745 015 241", "wa": "40745015241", "who": "Închirieri, Cornel Frățilă"},
+    "school": {"display": "+40 745 646 032", "wa": "40745646032", "who": "Școală de ski, Edi Frățilă"}
+  },
+  "google": {
+    "rental": {"name": "Centru de închirieri Ski & Snowboard", "rating": "4,5", "count": 45, "url": "https://share.google/QogxNhVKNXeX2kRHA", "review": "https://search.google.com/local/writereview?placeid=ChIJ9y-FC7kXs0ARF7ZnyZN6eOg"},
+    "school": {"name": "Monitor Ski & Snowboard Sinaia", "rating": "5,0", "count": 36, "url": "https://share.google/nDjGrkq4dlwhS0M2V", "review": "https://search.google.com/local/writereview?placeid=ChIJ05irOyoXs0ARYscIe7U7rjU"}
+  },
+  "links": {
+    "passShop": "https://gondolasinaia.axess.shop/ro/Products/Tickets/",
+    "webcam": "https://sinaiago.ro/",
+    "mapEmbed": "https://www.google.com/maps?q=Strada+Octavian+Goga+1,+Sinaia&output=embed",
+    "mapOpen": "https://www.google.com/maps/search/?api=1&query=Strada+Octavian+Goga+1+Sinaia"
+  },
+  "prices": {
+    "full": 60, "skis": 40, "boots": 40, "poles": 20, "helmet": 15, "goggles": 15, "sled": 40,
+    "lessonHour": 250, "lesson2h": 500, "groupDiscount": 25
+  },
+  "ui": {
+    "skipToContent": "Sari la conținut",
+    "menu": "Meniu",
+    "langLabel": "Limbă",
+    "home": "Acasă",
+    "reserve": "Rezervă echipamentul",
+    "reserveSled": "Rezervă sania",
+    "whatsapp": "Scrie-ne pe WhatsApp",
+    "whatsappSchool": "Scrie instructorului pe WhatsApp",
+    "openWhatsapp": "Deschide WhatsApp",
+    "allReviews": "Toate recenziile",
+    "leaveReview": "Lasă-ne un review",
+    "reviewRental": "Review pentru centru",
+    "reviewSchool": "Review pentru școală",
+    "googleReview": "recenzie Google",
+    "faq": "Întrebări frecvente",
+    "perDay": "Lei / zi",
+    "openMap": "Deschide în Google Maps",
+    "youAreHere": "Ești aici",
+    "footerNote": "Prețurile sunt în lei și includ TVA. Rezervarea e confirmată doar după răspunsul nostru pe WhatsApp, în limita stocului."
+  },
+  "nav": [
+    {"slug": "inchirieri-ski-snowboard-sinaia", "label": "Închirieri"},
+    {"slug": "scoala-ski-sinaia", "label": "Școală de ski"},
+    {"slug": "sanii-sinaia", "label": "Sănii"},
+    {"slug": "cartela-ski-sinaia", "label": "Cartela de ski"},
+    {"slug": "gara-sinaia-gondola", "label": "Gara - gondolă"},
+    {"slug": "vremea-partii-sinaia", "label": "Vremea"},
+    {"slug": "#rezervare", "label": "Rezervare"}
+  ],
+  "home": {
+    "title": "Închirieri Ski & Snowboard Sinaia, lângă gară, 60 lei/zi",
+    "description": "Închirieri ski, snowboard și sănii la 3 minute de Gara Sinaia. Cabină de schimb, bagaje, taxi la gondolă. Școală de ski. Rezervă online.",
+    "eyebrow": "La 3 minute pe jos de Gara Sinaia",
+    "h1": "Din gară, pe pârtie, în 30 de minute.",
+    "lead": "Centru de închirieri ski, snowboard și sănii lângă gară. Te schimbi la noi, îți lași bagajul la noi, te echipezi fără coadă și pleci cu taxiul direct la gondolă. 60 lei pe zi echipamentul complet, cel mai mic preț din Sinaia.",
+    "hoursLine": "Deschis zilnic 08:00 - 18:00, pe toată durata sezonului de ski. Str. Octavian Goga nr. 1, Sinaia.",
+    "panelTitle": "Azi, în 30 de minute",
+    "panel": [
+      {"t": "0'", "text": "Cobori din tren în Gara Sinaia"},
+      {"t": "3'", "text": "Ești la noi: te schimbi, lași bagajul, te echipezi"},
+      {"t": "15'", "text": "Taxiul chemat de noi te duce la gondolă"},
+      {"t": "30'", "text": "Intri direct la gondolă, cu cartela luată online", "strong": true}
+    ],
+    "route": {
+      "h2": "Drumul de 30 de minute",
+      "intro": "Majoritatea turiștilor pierd prima oră a zilei pe drum: autobuz până la gondolă, coadă la închirieri, coadă la cartele. Noi am scurtat tot drumul la patru pași.",
+      "steps": [
+        {"icon": "train", "time": "Minutul 0", "h3": "Gara Sinaia", "text": "Cobori din tren, urci scările din fața gării și o iei pe strada Octavian Goga. După 3 minute pe jos ești la noi, la numărul 1."},
+        {"icon": "home", "time": "Minutele 3 - 15", "h3": "Centrul de închirieri", "text": "Te schimbi în cabina noastră, îți lași rucsacul în depozitul de bagaje și primești echipamentul. Dacă ai rezervat online, e deja pus deoparte pe mărimea ta."},
+        {"icon": "taxi", "time": "Minutele 15 - 25", "h3": "Taxiul", "text": "Îl chemăm noi. Costă aproximativ 30 lei pe cursă, pentru până la 3 persoane echipate complet, și ajunge la gondolă în aproximativ 10 minute."},
+        {"icon": "gondola", "time": "Minutul 30", "h3": "Gondola", "text": "Cu cartela de ski cumpărată online intri direct, fără coada de la casele de bilete. Cartela o cumperi din shop-ul online al gondolei: îți faci cont în 2 minute, chiar din tren."}
+      ],
+      "evening": "Seara te întorci la noi, predai echipamentul și îți iei bagajul. Până la tren mai ai timp de o masă caldă: restaurantul Ramayana e la 50 de metri, iar cu voucherul primit la închiriere ai 10% reducere la nota finală. Apoi, 3 minute pe jos până în gară. Asta e tot."
+    },
+    "services": {
+      "h2": "Ce găsești la noi",
+      "intro": "Nu suntem cel mai arătos centru din Sinaia. Suntem cel mai rapid. Tot ce ai nevoie într-o zi de ski e sub același acoperiș, la 3 minute de gară.",
+      "items": [
+        {"icon": "skier", "h3": "Echipament complet", "text": "Schiuri, clăpari și bețe, sau placă și boots, pe mărimea și nivelul tău."},
+        {"icon": "sled", "h3": "Sănii", "text": "Pentru copii și pentru cei care nu schiază, dar vor zăpadă."},
+        {"icon": "helmet", "h3": "Cască și ochelari", "text": "Le închiriezi separat, cu 15 lei pe zi fiecare."},
+        {"icon": "cabin", "h3": "Cabină de schimb", "text": "Vii în blugi, pleci în costum de ski."},
+        {"icon": "bag", "h3": "Depozit de bagaje", "text": "Rucsacul, geanta, hainele de oraș rămân la noi până seara."},
+        {"icon": "taxi", "h3": "Taxi chemat de noi", "text": "Aproximativ 30 lei pe cursă până la gondolă, până la 3 persoane cu echipament."},
+        {"icon": "card", "h3": "Cartela de ski", "text": "Îți spunem ce cartelă să iei pentru ziua ta și cum o cumperi online, ca să nu stai la coadă."},
+        {"icon": "weather", "h3": "Vremea pe pârtie", "text": "Scrie-ne pe WhatsApp dimineața și îți spunem cum e sus înainte să pleci din București."},
+        {"icon": "school", "h3": "Școală de ski și snowboard", "text": "Instructori la același punct de plecare, detalii pe pagina școlii."},
+        {"icon": "calendar", "h3": "Rezervare online", "text": "Trimiți cererea seara, echipamentul te așteaptă dimineața."},
+        {"icon": "voucher", "h3": "10% reducere la Ramayana", "text": "După ce ai închiriat și ai plătit, primești un voucher pe hârtie: îl arăți la restaurantul Ramayana (Bd. Carol I nr. 19, la 50 de metri) și ai 10% reducere la nota finală.", "highlight": true},
+        {"icon": "no", "h3": "Ce nu avem", "text": "Toaletă. O spunem deschis, ca să nu fie o surpriză.", "muted": true}
+      ]
+    },
+    "pricing": {
+      "h2": "Tarifar închirieri",
+      "intro": "Prețuri pe zi, fără taxe ascunse. Cel mai mic preț din Sinaia la echipamentul complet. Garanție: o copie a actului de identitate, fără bani și fără să îți reținem actul.",
+      "note": "Pentru închirieri de mai multe zile sau grupuri, scrie-ne pe WhatsApp, prețul se negociază.",
+      "colItem": "Ce închiriezi", "colContent": "Ce conține",
+      "rows": [
+        {"item": "Echipament complet ski", "content": "Schiuri + clăpari + bețe", "key": "full"},
+        {"item": "Echipament complet snowboard", "content": "Placă + boots", "key": "full"},
+        {"item": "Doar schiuri", "content": "", "key": "skis"},
+        {"item": "Doar clăpari", "content": "", "key": "boots"},
+        {"item": "Doar bețe", "content": "", "key": "poles"},
+        {"item": "Cască", "content": "", "key": "helmet"},
+        {"item": "Ochelari de ski", "content": "", "key": "goggles"},
+        {"item": "Sanie", "content": "", "key": "sled"}
+      ]
+    },
+    "school": {
+      "eyebrow": "Monitor Ski & Snowboard Sinaia",
+      "h2": "Școala de ski și snowboard",
+      "text": "Lecții private de ski și snowboard, în română sau engleză, pentru copii de la 3 ani și adulți. Pleci de la centrul de închirieri cu instructorul, deci nu cauți pe nimeni la baza pârtiei. Nota 5 din 5 pe Google, din 36 de recenzii.",
+      "whyH3": "De ce lecția durează 2 ore",
+      "why": "O oră nu ajunge ca un începător să treacă prin toate exercițiile de bază. Mai mult de două ore e prea mult efort fizic pentru cineva care abia a pus clăparii. Lecția de 2 ore e cea pe care o recomandăm începătorilor.",
+      "more": "Detalii despre lecții, prețuri și întrebări frecvente",
+      "colLesson": "Lecție", "colPrice": "Preț",
+      "rows": [
+        {"item": "Tarif orar, lecție privată", "price": "250 lei / oră"},
+        {"item": "Lecția recomandată: privat, 2 ore", "price": "500 lei"},
+        {"item": "Grup de la 2 persoane, 2 ore", "price": "25% reducere la preț de persoană", "soft": true}
+      ],
+      "note": "Pentru grupuri mai mari sau mai multe zile de lecții, prețul se negociază."
+    },
+    "reviews": {
+      "h2": "Ce spun cei care au trecut pe la noi",
+      "items": [
+        {"who": "rental", "text": "Rented equipment with 6 of my friends for the weekend. The owner is available by phone, speak fluently english and is really friendly. He even let me borrow his gloves since i forgot mine! Great shop, i recommend!", "name": "Recenzie Google, închirieri"},
+        {"who": "rental", "text": "We organised equipment rental and ski lessons here and it was really fantastic. Equipment rental was affordable and straightforward, and they even looked after some of our equipment whilst we were on the mountain.", "name": "Recenzie Google, închirieri"},
+        {"who": "school", "text": "Edi taught my two kids (11 and 14) who had only had skiing lessons three years before. We were very happy with the way he got them up to speed in a matter of days!", "name": "Recenzie Google, școală"},
+        {"who": "school", "text": "My 8 yr old learner recently took ski lessons from Edi. He is gentle, fun, kid-friendly, and has an effective teaching style. He is very well organized and punctual, which means he doesn't waste your time.", "name": "Recenzie Google, școală"}
+      ]
+    },
+    "booking": {
+      "h2": "Rezervă de seara, dimineața e gata",
+      "text": "Completezi formularul, vezi totalul pe loc și trimiți cererea pe WhatsApp. Îți confirmăm în cel mult o oră, între 08:00 și 18:00. Echipamentul te așteaptă pus deoparte, pe mărimea ta. Nu plătești nimic online, plătești la ridicare.",
+      "note": "Rezervarea e confirmată doar după răspunsul nostru pe WhatsApp, în limita stocului. Pentru mai multe persoane, treci mărimile celorlalți la observații; totul pleacă într-un singur mesaj.",
+      "fields": {
+        "start": "Prima zi", "end": "Ultima zi", "kind": "Ski sau snowboard", "ski": "Ski", "snowboard": "Snowboard",
+        "level": "Nivel", "beginner": "Începător", "intermediate": "Mediu", "advanced": "Avansat",
+        "height": "Înălțime (cm)", "weight": "Greutate (kg)", "shoe": "Nr. la picior", "persons": "Persoane",
+        "helmet": "Cască (15 lei/zi)", "goggles": "Ochelari (15 lei/zi)", "sleds": "Sănii (40 lei/zi)",
+        "name": "Nume", "phone": "Telefon", "email": "Email", "notes": "Observații (opțional)",
+        "notesPlaceholder": "Mărimile celorlalte persoane, întrebări",
+        "totalLabel": "Total estimat, plătești la ridicare",
+        "day": "zi", "days": "zile",
+        "submit": "Trimite cererea pe WhatsApp"
+      },
+      "message": {
+        "intro": "Bună! Vreau să rezerv:", "level": "nivel", "persons": "Persoane", "helmet": "Cască", "goggles": "ochelari", "sleds": "sănii",
+        "yes": "da", "no": "nu", "period": "Perioada", "total": "Total estimat", "name": "Nume", "phone": "tel", "email": "email", "notes": "Observații",
+        "placeholderPeriod": "[perioada]", "placeholderName": "[nume]", "placeholderPhone": "[telefon]", "placeholderEmail": "[email]"
+      }
+    },
+    "contact": {
+      "h2": "Unde ne găsești",
+      "addressLabel": "Adresă",
+      "addressText": "Str. Octavian Goga nr. 1, Sinaia, Prahova. La 3 minute pe jos de Gara Sinaia: urci scările din fața gării și mergi drept pe Octavian Goga.",
+      "hoursLabel": "Program",
+      "hoursText": "Zilnic 08:00 - 18:00, pe toată durata sezonului de ski. În afara sezonului, scrie-ne pe WhatsApp înainte să vii.",
+      "reviewAsk": "Ai fost mulțumit? Un review de 30 de secunde ne ajută mai mult decât orice reclamă."
+    }
+  },
+  "pages": {
+    "inchirieri-ski-snowboard-sinaia": {
+      "title": "Închirieri ski și snowboard Sinaia, 60 lei/zi, lângă gară",
+      "description": "Echipament complet de ski sau snowboard cu 60 lei/zi, la 3 minute de Gara Sinaia. Cabină de schimb, depozit bagaje, taxi la gondolă. Rezervă online.",
+      "crumb": "Închirieri",
+      "icon": "skier",
+      "eyebrow": "Închirieri ski și snowboard",
+      "h1": "Închirieri ski și snowboard la 3 minute de Gara Sinaia",
+      "lead": "Echipament complet de ski (schiuri, clăpari, bețe) sau snowboard (placă, boots) cu 60 lei pe zi, cel mai mic preț din Sinaia. Avem mărimi pentru copii și adulți, de la începător la avansat. Îl alegem împreună, după înălțime, greutate și nivel, în 5 minute. Garanția e simplă: facem o copie a actului de identitate. Nu îți reținem actul și nu îți cerem bani garanție.",
+      "stat": {"big": "60 lei", "small": "pe zi, echipamentul complet", "link": "Vezi tot tarifarul", "href": "#preturi"},
+      "cta": {"primary": "reserve", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "text", "h2": "Ce mai găsești aici", "text": "Cabină de schimb, depozit pentru bagaje pe toată ziua, cască și ochelari cu 15 lei pe zi fiecare, taxi chemat de noi până la gondolă (aproximativ 30 lei pe cursă, până la 3 persoane cu echipament). După închiriere primești și voucherul de 10% reducere la restaurantul Ramayana, la 50 de metri de noi."},
+        {"type": "steps", "h2": "Cum funcționează", "items": [
+          "Rezervi online de seara sau vii direct, între 08:00 și 18:00.",
+          "Te schimbi, îți lași bagajul, probezi clăparii.",
+          "Pleci cu taxiul la gondolă. Seara predai echipamentul și îți iei bagajul."
+        ]},
+        {"type": "pricing"}
+      ],
+      "faq": [
+        {"q": "Trebuie să rezerv?", "a": "Nu, dar dacă rezervi echipamentul e pus deoparte pe mărimea ta și nu aștepți deloc."},
+        {"q": "Pot închiria doar clăparii sau doar schiurile?", "a": "Da: schiuri 40 lei/zi, clăpari 40 lei/zi, bețe 20 lei/zi."},
+        {"q": "Aveți echipament pentru copii?", "a": "Da, de la mărimi mici de clăpari până la adulți."},
+        {"q": "Ce las garanție?", "a": "Nimic: facem o copie a actului de identitate și atât. Actul rămâne la tine."},
+        {"q": "Pot lăsa echipamentul meu la voi?", "a": "Da, în depozitul de bagaje, pe durata zilei."},
+        {"q": "Dacă nu merge gondola?", "a": "Mutăm rezervarea fără cost. Dacă ai plătit și gondola nu a funcționat deloc în ziua aia, îți dăm banii înapoi."}
+      ],
+      "ctaBand": {"h2": "Rezervă de seara, dimineața e gata.", "text": "Formularul îți arată totalul și trimite cererea pe WhatsApp.", "button": "reserve"}
+    },
+    "scoala-ski-sinaia": {
+      "title": "Școală de ski și snowboard Sinaia, lecții private, 5 stele pe Google",
+      "description": "Lecții private de ski și snowboard în Sinaia, pentru copii de la 3 ani și adulți, în română sau engleză. 250 lei/oră, lecția recomandată de 2 ore 500 lei. Nota 5 pe Google.",
+      "crumb": "Școală de ski",
+      "icon": "school",
+      "eyebrow": "Monitor Ski & Snowboard Sinaia",
+      "h1": "Lecții private de ski și snowboard, de la centrul de lângă gară",
+      "lead": "Pentru copii de la 3 ani și adulți, de la prima zi pe zăpadă până la corectarea tehnicii. În română sau engleză. Ne întâlnim la centrul de închirieri, te echipezi și urcăm împreună: nu cauți instructorul la baza pârtiei și nu pierzi prima oră.",
+      "stat": {"big": "5,0", "stars": true, "small": "din 5 pe Google, 36 de recenzii", "link": "Citește recenziile", "href": "google:school"},
+      "cta": {"primary": "whatsappSchool", "secondary": "reserve"},
+      "sections": [
+        {"type": "twoCol", "left": {"h2": "De ce lecția durează 2 ore", "paras": ["O oră nu ajunge ca un începător să treacă prin toate exercițiile de bază. Peste două ore e prea mult efort pentru cineva care abia a pus clăparii. De aceea lecția recomandată are 2 ore.", "La finalul primei lecții de 2 ore, un începător știe în medie să folosească echipamentul, să alunece, să se oprească și să facă primele viraje pe pârtia de începători."]}, "right": {"h2": "Pentru cine", "items": [
+          "Copii de la 3 ani, cu părintele aproape sau fără. Sub 3 ani nu recomandăm lecții.",
+          "Adulți care n-au schiat niciodată și vor să termine ziua pe pârtie, nu în zăpadă.",
+          "Schiori medii care vor să treacă la pârtii mai grele.",
+          "Snowboarderi, de la prima alunecare la viraje legate."
+        ]}},
+        {"type": "lessonPricing", "h2": "Prețuri lecții", "intro": "Echipamentul nu e inclus; îl închiriezi tot de la noi, 60 lei pe zi. Pentru mai multe zile sau grupuri mari, prețul se negociază."},
+        {"type": "reviews", "h2": "Ce spun părinții și elevii", "who": "school"}
+      ],
+      "faq": [
+        {"q": "Cât timp îi ia unui începător să coboare singur o pârtie?", "a": "La finalul primei lecții de 2 ore, în medie, aluneci, te oprești și faci primele viraje pe pârtia de începători. O pârtie întreagă, singur și controlat, vine de obicei după a doua lecție."},
+        {"q": "Pot lua lecția și fără echipamentul vostru?", "a": "Da, vii cu al tău."},
+        {"q": "Lecția se poate muta dacă e vreme rea sau nu merge gondola?", "a": "Da, fără niciun cost. Ne scrii pe WhatsApp și alegem altă zi."},
+        {"q": "În ce limbi se țin lecțiile?", "a": "În română și engleză."}
+      ],
+      "ctaBand": {"h2": "Scrie-ne cu o zi înainte și stabilim ora.", "text": "Edi Frățilă, instructor. Răspundem între 08:00 și 18:00.", "button": "whatsappSchoolNumber"}
+    },
+    "sanii-sinaia": {
+      "title": "Sănii de închiriat Sinaia, 40 lei/zi, lângă gară",
+      "description": "Sanie de închiriat la 3 minute de Gara Sinaia, 40 lei pe zi. Pentru copii și pentru cei care nu schiază. Bagajele rămân la noi.",
+      "crumb": "Sănii",
+      "icon": "sled",
+      "eyebrow": "Sănii de închiriat",
+      "h1": "Sanie de închiriat la 3 minute de Gara Sinaia",
+      "lead": "Nu toată lumea schiază. Pentru copii, bunici și cei care vor doar zăpadă, avem sănii cu 40 lei pe zi. Le iei de la noi, la 3 minute de gară, și îți păstrăm bagajele cât ești afară. Seara le aduci înapoi și pleci la tren.",
+      "stat": {"big": "40 lei", "small": "pe zi, o sanie", "link": "Rezervă sania", "href": "/#rezervare"},
+      "cta": {"primary": "reserveSled", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "text", "h2": "Unde te dai cu sania în Sinaia", "text": "[De completat de Edi: locurile recomandate, cu timpii de mers pe jos sau cu taxiul de la centru.]"},
+        {"type": "text", "h2": "Ce aduci de acasă", "text": "Haine impermeabile, mănuși, căciulă. Cască pentru copii poți închiria de la noi, 15 lei pe zi."}
+      ],
+      "faq": [
+        {"q": "Pot închiria sania doar câteva ore?", "a": "[De completat de Edi: aveți tarif pe jumătate de zi?]"},
+        {"q": "Pentru ce vârstă sunt săniile?", "a": "[De completat de Edi.]"},
+        {"q": "Pot rezerva sania online?", "a": "Da, prin același formular, treci numărul de sănii."}
+      ],
+      "ctaBand": {"h2": "Rezervă sania de seara.", "text": "Treci numărul de sănii în formular, totul pleacă pe WhatsApp.", "button": "reserve"}
+    },
+    "cartela-ski-sinaia": {
+      "title": "Cartela de ski Sinaia: cum o cumperi online și ce să iei pentru o zi",
+      "description": "Cartela de ski pentru Sinaia se cumpără online din shop-ul oficial al gondolei: cont în 2 minute, intri direct fără coadă. Îți spunem ce cartelă ți se potrivește.",
+      "crumb": "Cartela de ski",
+      "icon": "card",
+      "eyebrow": "Cartela de ski",
+      "h1": "Cartela de ski Sinaia, cumpărată din tren",
+      "lead": "Coada de la casele de bilete de la baza gondolei e primul loc unde se pierde o dimineață de ski. Cartela se cumpără online, din shop-ul oficial al gondolei. Îți faci cont (2 minute), alegi cartela, plătești cu cardul și la gondolă intri direct. Dacă nu știi ce cartelă ți se potrivește, scrie-ne pe WhatsApp cu o zi înainte.",
+      "stat": {"big": "2 min", "small": "îți faci cont și cumperi cartela online", "link": "Shop-ul oficial al gondolei", "href": "link:passShop"},
+      "cta": {"primary": "passShop", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "text", "h2": "Ce cartelă pentru ce zi", "text": "[De completat de Edi: ce recomandați unui începător la prima lecție, unui schior mediu pentru o zi, unei familii cu copii.]"},
+        {"type": "text", "h2": "Prețurile cartelei", "text": "Prețurile oficiale pentru sezonul în curs sunt pe shop-ul gondolei; le stabilește operatorul gondolei, nu noi, și se schimbă în fiecare sezon. Nu le afișăm aici ca să nu te inducem în eroare."}
+      ],
+      "faq": [
+        {"q": "Pot cumpăra cartela la gondolă?", "a": "Da, la casele de bilete, dar acolo e coada pe care vrem să o eviți."},
+        {"q": "Îmi trebuie cont ca să cumpăr online?", "a": "Da, îl faci în 2 minute pe shop, cu emailul tău."},
+        {"q": "Copiii au reducere?", "a": "[De completat de Edi, după ce apar tarifele sezonului.]"},
+        {"q": "Cartela e pe telefon sau pe card fizic?", "a": "[De completat de Edi: cum intri efectiv la gondolă după ce ai cumpărat online.]"}
+      ],
+      "ctaBand": {"h2": "Nu știi ce cartelă să iei?", "text": "Scrie-ne pe WhatsApp cu o zi înainte: îți spunem ce să iei pentru nivelul tău și pentru cât timp stai.", "button": "whatsapp"}
+    },
+    "gara-sinaia-gondola": {
+      "title": "Cum ajungi de la Gara Sinaia la gondolă: pe jos, cu taxiul, cu autobuzul",
+      "description": "De la Gara Sinaia la gondolă în 30 de minute, cu echipament: 3 minute pe jos până la centrul de închirieri, taxi aproximativ 30 lei, până la 3 persoane. Comparație cu mersul pe jos și autobuzul.",
+      "crumb": "Gara - gondolă",
+      "icon": "train",
+      "eyebrow": "De la gară la gondolă",
+      "h1": "De la tren la gondolă, cu sau fără echipament",
+      "lead": "Gara Sinaia e jos, în oraș. Gondola e sus, la capătul unei urcări. Între ele ai trei variante, și timpul pierdut diferă mult.",
+      "stat": {"big": "30 min", "small": "de la tren la gondolă, echipat, pe drumul nostru", "link": "Vezi drumul pas cu pas", "href": "/#drum"},
+      "cta": {"primary": "reserve", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "table", "h2": "Cele trei variante", "cols": ["Varianta", "Cât durează", "Cât costă", "Pentru cine"], "rows": [
+          ["Taxi chemat de la centrul nostru", "aprox. 10 minute", "aprox. 30 lei, până la 3 persoane cu echipament", "cine vrea să fie pe pârtie în 30 de minute de la tren"],
+          ["Pe jos", "[de completat de Edi: minute, în urcare]", "0 lei", "cine vine fără echipament și vrea plimbare"],
+          ["Autobuz", "[de completat de Edi: ce linie, cât de des]", "[de completat]", "cine are timp și bagaj puțin"]
+        ]},
+        {"type": "text", "h2": "Varianta pe care o recomandăm", "text": "Te oprești la noi, la 3 minute de gară. Te schimbi, te echipezi, îți lași bagajul, iar taxiul pe care îl chemăm noi te lasă la baza gondolei. Cu cartela cumpărată online intri direct."},
+        {"type": "map"}
+      ],
+      "faq": [
+        {"q": "Pot merge pe jos cu schiurile în spate?", "a": "Poți, dar e în urcare și pierzi cel puțin o jumătate de oră. Taxiul costă 10 lei de persoană dacă sunteți trei."},
+        {"q": "Taxiul vine repede?", "a": "Îl chemăm noi când ești aproape gata. [De completat de Edi: cât așteaptă de obicei în sezon.]"},
+        {"q": "Seara cum cobor?", "a": "[De completat de Edi: taxi de la gondolă, autobuz, pe jos la vale?]"}
+      ],
+      "ctaBand": {"h2": "Oprește-te la noi, la 3 minute de gară.", "text": "Te echipăm și îți chemăm taxiul. Rezervă de seara ca să nu aștepți deloc.", "button": "reserve"}
+    },
+    "vremea-partii-sinaia": {
+      "title": "Vremea pe pârtiile din Sinaia azi: webcam, zăpadă, ce pârtii sunt deschise",
+      "description": "Cum e vremea pe pârtiile din Sinaia înainte să pleci de acasă: webcam în direct și un mesaj pe WhatsApp la centrul de închirieri de lângă gară, deschis de la 08:00.",
+      "crumb": "Vremea",
+      "icon": "weather",
+      "eyebrow": "Vremea și pârtiile",
+      "h1": "Cum e sus, înainte să pleci de acasă",
+      "lead": "Sinaia are două etaje de vreme: în oraș poate ploua, la Cota 2000 poate ninge. Înainte să te urci în tren, uită-te pe webcam și scrie-ne pe WhatsApp: suntem la 3 minute de gară de la 08:00 și îți spunem cum e pe pârtie, ce e deschis și dacă merită ziua.",
+      "stat": {"big": "08:00", "small": "de la ora asta răspundem pe WhatsApp cu vremea de pe pârtie", "link": "Webcam pe pârtii", "href": "link:webcam"},
+      "cta": {"primary": "whatsappWeather", "secondary": "reserve"},
+      "sections": [
+        {"type": "today"},
+        {"type": "text", "h2": "Webcam și surse", "text": "[De completat de Edi: ce surse oficiale folosiți voi dimineața pentru vreme și pentru pârtiile deschise.]", "link": {"label": "Webcam pe pârtiile din Sinaia", "href": "link:webcam"}}
+      ],
+      "faq": [
+        {"q": "Dacă e vreme rea sau nu merge gondola, pot anula sau muta rezervarea?", "a": "Da, fără cost. Dacă ai plătit echipamentul și gondola nu a funcționat deloc în ziua aia, îți dăm banii înapoi. Dacă ai urcat și ai schiat, iar gondola s-a închis spre finalul zilei, închirierea rămâne plătită."},
+        {"q": "Când se deschide sezonul de ski la Sinaia?", "a": "[De completat de Edi: de obicei în ce lună.]"},
+        {"q": "Se poate schia la Sinaia când în oraș nu e zăpadă?", "a": "[De completat de Edi, din experiență.]"}
+      ],
+      "ctaBand": {"h2": "Întreabă-ne cum e sus.", "text": "Un mesaj pe WhatsApp dimineața și știi dacă merită ziua.", "button": "whatsappWeather"}
+    }
+  },
+  "weatherMessage": "Bună! Cum e vremea pe pârtie azi și ce e deschis?",
+  "today": {"h2": "Azi pe pârtie", "text": "[Rând actualizat de Edi dimineața, de pe telefon: pârtii deschise, zăpadă, temperatura la Cota 1400.]", "updated": "Actualizat"}
+}

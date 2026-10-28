@@ -1,0 +1,10 @@
+{
+  "name": "rentski-site",
+  "private": true,
+  "description": "Site-ul Centrului de închirieri Ski & Snowboard Sinaia (rentski.ro)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && python3 -m http.server 8123 --directory dist"
+  }
+}
