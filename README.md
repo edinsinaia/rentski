@@ -7,7 +7,7 @@ Site static, fără WordPress și fără bază de date. Textele stau în `conten
 | Unde | Ce e |
 | --- | --- |
 | `content/ro.json` | Toate textele în română: prețuri, program, telefoane, pagini, întrebări frecvente |
-| `content/en.json`, `content/he.json` | Aceleași texte în engleză și ebraică (se adaugă după aprobarea versiunii române) |
+| `content/en.json`, `content/he.json` | Aceleași texte în engleză și ebraică, aceeași structură de chei ca `ro.json`. Ebraica are `dir: rtl`; mesajul WhatsApp din pagina ebraică este în engleză (`home.booking.message`, `weatherMessage`), ca să-l poată citi Cornel |
 | `src/css/site.css` | Stilurile (culori, fonturi, așezare) |
 | `src/js/site.js` | Meniul de pe telefon și formularul de rezervare (totalul + mesajul WhatsApp) |
 | `build.mjs` | Scriptul care generează site-ul |
@@ -49,7 +49,8 @@ Site-ul nu depinde de Romarg: `dist/` merge pe orice server. Pe Vercel: conectez
 - Domeniul rentski.ro e în alt cont Romarg decât hostingul, plătit până pe 2 oct 2028. Email de contact pe domeniu: eduardgfratila@gmail.com.
 - DNS-ul e la Cloudflare, într-un cont al unui prieten; nu se atinge până nu mutăm hostingul.
 - Textele marcate `[De completat de Edi ...]` în `content/ro.json` sunt locuri unde lipsesc încă informații; se văd și pe site până sunt completate.
-- Prețurile pe componente (schiuri 40 / clăpari 40 / bețe 20) au fost spuse din memorie; de confirmat la centru înainte de publicare.
+- Prețurile pe componente (schiuri 40 / clăpari 40 / bețe 20) confirmate de Edi.
+- Când se schimbă un text în `ro.json`, trebuie schimbat și în `en.json` și `he.json` (aceleași chei). Traducerile EN/HE sunt făcute de Claude; ebraica nu a fost verificată de un vorbitor nativ.
 
 ## Publicare automată (din oct 2026)
 
