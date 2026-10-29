@@ -167,7 +167,7 @@ function reviewsBlock(c, lang, items, h2, who) {
   };
   return `<section class="section ${who ? '' : 'bg-surface'}" id="recenzii">
 <div class="wrap">
-<div class="section-head"><h2>${esc(h2)}</h2></div>
+<div class="section-head"><h2>${esc(h2)}</h2>${who ? '' : `<p class="lead">${esc(c.home.reviews.intro)}</p>`}</div>
 ${who ? '' : `<div class="gbp-grid">${gbp('rental')}${gbp('school')}</div>`}
 <div class="reviews-grid">
 ${list.map(r => `<figure class="review"><span class="stars" aria-label="5/5">★★★★★</span><blockquote>${esc(r.text)}</blockquote><figcaption>${esc(r.name)}</figcaption></figure>`).join('\n')}
@@ -185,7 +185,8 @@ function pricingTable(c, p) {
 ${p.rows.map(r => `<tr><td class="item">${esc(r.item)}</td><td class="content">${esc(r.content)}</td><td class="price">${c.prices[r.key]}</td></tr>`).join('\n')}
 </tbody>
 </table>
-<p class="table-note">${esc(p.note)}</p>
+<p class="table-note">${esc(p.guarantee)}</p>
+<p class="table-note" style="padding-top:0">${esc(p.note)}</p>
 </div>`;
 }
 
@@ -273,6 +274,7 @@ function homePage(c, lang) {
 <span class="eyebrow">${icon('pin', 18)}${esc(h.eyebrow)}</span>
 <h1>${esc(h.h1)}</h1>
 <p class="lead">${esc(h.lead)}</p>
+<p class="price-line">${esc(h.priceLine)}</p>
 <div class="btn-row">${button(c, lang, 'reserve')}${button(c, lang, 'whatsapp')}</div>
 <p class="hero-small">${esc(h.hoursLine)}</p>
 </div>
@@ -295,7 +297,8 @@ ${stepCard(steps[2])}
 <div class="arrow arrow-down" aria-hidden="true">${icon('arrowD', 28, 2.5)}</div>
 </div>
 <div class="route-full">${stepCard(steps[3], true)}</div>
-<div class="evening">${icon('bag2', 28)}<p>${esc(h.route.evening)}</p></div>
+<p class="disclaimer">${esc(h.route.disclaimer)}</p>
+<div class="evening">${icon('bag2', 28)}<div><h3>${esc(h.route.eveningH3)}</h3><p>${esc(h.route.evening)}</p></div></div>
 </div>
 </section>
 
@@ -336,13 +339,14 @@ ${bookingForm(c, lang)}
 <div class="wrap">
 <div class="contact-copy">
 <h2>${esc(h.contact.h2)}</h2>
+<p class="lead">${esc(h.contact.intro)}</p>
 <div class="kv"><span class="k">${esc(h.contact.addressLabel)}</span><p class="v">${esc(h.contact.addressText)}</p></div>
 <div class="kv"><span class="k">${esc(h.contact.hoursLabel)}</span><p class="v">${esc(h.contact.hoursText)}</p></div>
 <div class="phones">
-<a class="phone" href="${wa(c.phones.rental.wa)}" target="_blank" rel="noopener"><span class="who">${esc(c.phones.rental.who)}</span><span class="num">${esc(c.phones.rental.display)}</span><span class="wa">${esc(c.ui.openWhatsapp)}</span></a>
-<a class="phone" href="${wa(c.phones.school.wa)}" target="_blank" rel="noopener"><span class="who">${esc(c.phones.school.who)}</span><span class="num">${esc(c.phones.school.display)}</span><span class="wa">${esc(c.ui.openWhatsapp)}</span></a>
+<a class="phone" href="${wa(c.phones.rental.wa)}" target="_blank" rel="noopener"><span class="who">${esc(c.phones.rental.who)}</span><span class="person">${esc(c.phones.rental.name)}</span><span class="num">${esc(c.phones.rental.display)}</span><span class="wa">${esc(c.ui.openWhatsapp)}</span></a>
+<a class="phone" href="${wa(c.phones.school.wa)}" target="_blank" rel="noopener"><span class="who">${esc(c.phones.school.who)}</span><span class="person">${esc(c.phones.school.name)}</span><span class="num">${esc(c.phones.school.display)}</span><span class="wa">${esc(c.ui.openWhatsapp)}</span></a>
 </div>
-<div class="review-ask"><p>${esc(h.contact.reviewAsk)}</p><div class="btn-row"><a class="btn btn-sm btn-primary" href="${c.google.rental.review}" target="_blank" rel="noopener">${esc(c.ui.reviewRental)}</a><a class="btn btn-sm btn-line" href="${c.google.school.review}" target="_blank" rel="noopener">${esc(c.ui.reviewSchool)}</a></div></div>
+<div class="review-ask"><h3>${esc(h.contact.reviewH3)}</h3><p>${esc(h.contact.reviewAsk)}</p><div class="btn-row"><a class="btn btn-sm btn-primary" href="${c.google.rental.review}" target="_blank" rel="noopener">${esc(c.ui.reviewRental)}</a><a class="btn btn-sm btn-line" href="${c.google.school.review}" target="_blank" rel="noopener">${esc(c.ui.reviewSchool)}</a></div></div>
 </div>
 ${mapBlock(c)}
 </div>

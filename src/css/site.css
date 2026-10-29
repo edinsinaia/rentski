@@ -316,3 +316,11 @@ td.soft { font-family: var(--font-body); font-weight: 700; font-size: 15px; colo
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 .bg-dark :focus-visible, .bg-accent :focus-visible, .hero-sub :focus-visible { outline-color: #FFF; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn, .phone { transition: none; } .btn:hover, .phone:hover { transform: none; } }
+
+/* texte adăugate */
+.price-line { font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--accent-dark); }
+.disclaimer { margin-top: 14px; font-size: 13px; color: var(--muted); }
+.evening > div { display: flex; flex-direction: column; gap: 6px; }
+.evening h3 { font-size: 18px; }
+.phone .person { font-size: 14px; font-weight: 600; }
+.review-ask h3 { font-size: 18px; }

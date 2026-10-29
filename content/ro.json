@@ -12,17 +12,19 @@
     "rental": {
       "display": "+40 745 015 241",
       "wa": "40745015241",
-      "who": "Închirieri, Cornel Frățilă"
+      "who": "Închirieri schi, snowboard și sănii",
+      "name": "Cornel Frățilă"
     },
     "school": {
       "display": "+40 745 646 032",
       "wa": "40745646032",
-      "who": "Școală de ski, Edi Frățilă"
+      "who": "Lecții de schi și snowboard",
+      "name": "Edi Frățilă"
     }
   },
   "google": {
     "rental": {
-      "name": "Centru de închirieri Ski & Snowboard",
+      "name": "Centru de închirieri schi și snowboard",
       "rating": "4,5",
       "count": 45,
       "url": "https://share.google/QogxNhVKNXeX2kRHA",
@@ -53,7 +55,8 @@
     "sled": 40,
     "lessonHour": 250,
     "lesson2h": 500,
-    "groupDiscount": 25
+    "groupDiscount": 25,
+    "lessonGroup": 400
   },
   "ui": {
     "skipToContent": "Sari la conținut",
@@ -64,15 +67,15 @@
     "reserveSled": "Rezervă sania",
     "whatsapp": "Scrie-ne pe WhatsApp",
     "whatsappSchool": "Scrie instructorului pe WhatsApp",
-    "openWhatsapp": "Deschide WhatsApp",
-    "allReviews": "Toate recenziile",
-    "leaveReview": "Lasă-ne un review",
-    "reviewRental": "Review pentru centru",
-    "reviewSchool": "Review pentru școală",
+    "openWhatsapp": "Scrie pe WhatsApp",
+    "allReviews": "Citește toate recenziile",
+    "leaveReview": "Lasă-ne o recenzie",
+    "reviewRental": "Lasă o recenzie pentru centrul de închirieri",
+    "reviewSchool": "Lasă o recenzie pentru școala de schi",
     "googleReview": "recenzie Google",
     "faq": "Întrebări frecvente",
-    "perDay": "Lei / zi",
-    "openMap": "Deschide în Google Maps",
+    "perDay": "Preț/zi",
+    "openMap": "Deschide locația în Google Maps",
     "youAreHere": "Ești aici",
     "footerNote": "Prețurile sunt în lei și includ TVA. Rezervarea e confirmată doar după răspunsul nostru pe WhatsApp, în limita stocului."
   },
@@ -109,206 +112,208 @@
   "home": {
     "title": "Închirieri Ski & Snowboard Sinaia, lângă gară, 60 lei/zi",
     "description": "Închirieri ski, snowboard și sănii la 3 minute de Gara Sinaia. Cabină de schimb, bagaje, taxi la gondolă. Școală de ski. Rezervă online.",
-    "eyebrow": "La 3 minute pe jos de Gara Sinaia",
-    "h1": "Din gară, pe pârtie, în 30 de minute.",
-    "lead": "Centru de închirieri ski, snowboard și sănii lângă gară. Te schimbi la noi, îți lași bagajul la noi, te echipezi fără coadă și pleci cu taxiul direct la gondolă. 60 lei pe zi echipamentul complet, cel mai mic preț din Sinaia.",
-    "hoursLine": "Deschis zilnic 08:00 - 18:00, pe toată durata sezonului de ski. Str. Octavian Goga nr. 1, Sinaia.",
-    "panelTitle": "Azi, în 30 de minute",
+    "eyebrow": "La doar 3 minute de Gara Sinaia",
+    "h1": "Cobori din tren, te echipezi și pornești spre pârtie.",
+    "lead": "O zi reușită la schi începe cu cât mai puțin timp pierdut pe drum. La centrul nostru de închirieri, aflat la doar 3 minute de mers pe jos de Gara Sinaia, găsești echipamente de schi și snowboard pentru copii și adulți, sănii și tot ce ai nevoie pentru o zi pe zăpadă. Te ajutăm să alegi echipamentul potrivit, te poți schimba la noi, îți poți lăsa bagajele în siguranță și, când ești gata, îți chemăm un taxi până la gondolă.",
+    "hoursLine": "Ne găsești pe Strada Octavian Goga nr. 1, Sinaia, zilnic între 08:00 și 18:00, pe durata sezonului de schi.",
+    "panelTitle": "De la tren la gondolă, în aproximativ 30 de minute",
     "panel": [
       {
         "t": "0'",
-        "text": "Cobori din tren în Gara Sinaia"
+        "text": "Ajungi în Gara Sinaia. Cobori din tren și pornești către centrul nostru de închirieri."
       },
       {
         "t": "3'",
-        "text": "Ești la noi: te schimbi, lași bagajul, te echipezi"
+        "text": "Ești deja la noi. Îți alegi echipamentul, te schimbi și îți lași bagajele."
       },
       {
         "t": "15'",
-        "text": "Taxiul chemat de noi te duce la gondolă"
+        "text": "Pleci către gondolă. Îți chemăm un taxi, astfel încât să nu mai pierzi timp căutând transport."
       },
       {
         "t": "30'",
-        "text": "Intri direct la gondolă, cu cartela luată online",
+        "text": "Ești gata să urci. Ajungi la baza gondolei, iar cu biletul cumpărat online poți evita coada de la case.",
         "strong": true
       }
     ],
     "route": {
-      "h2": "Drumul de 30 de minute",
-      "intro": "Majoritatea turiștilor pierd prima oră a zilei pe drum: autobuz până la gondolă, coadă la închirieri, coadă la cartele. Noi am scurtat tot drumul la patru pași.",
+      "h2": "Cum începe o zi de schi alături de noi",
+      "intro": "Dacă vii la Sinaia cu trenul, nu trebuie să străbați orașul cu bagajele după tine sau să cauți un centru de închirieri lângă pârtie. Ne găsești aproape de gară, într-un loc din care îți poți organiza ușor întreaga zi.",
       "steps": [
         {
           "icon": "train",
           "time": "Minutul 0",
-          "h3": "Gara Sinaia",
-          "text": "Cobori din tren, urci scările din fața gării și o iei pe strada Octavian Goga. După 3 minute pe jos ești la noi, la numărul 1."
+          "h3": "Ai ajuns în Sinaia",
+          "text": "Imediat ce ieși din gară, urci scările din față și continui pe strada Octavian Goga. La numărul 1 găsești centrul nostru, la aproximativ trei minute de mers pe jos."
         },
         {
           "icon": "home",
           "time": "Minutele 3 - 15",
-          "h3": "Centrul de închirieri",
-          "text": "Te schimbi în cabina noastră, îți lași rucsacul în depozitul de bagaje și primești echipamentul. Dacă ai rezervat online, e deja pus deoparte pe mărimea ta."
+          "h3": "Alegem echipamentul potrivit",
+          "text": "Nu trebuie să știi dinainte ce schiuri sau ce clăpari ți se potrivesc. Îți cerem câteva informații despre înălțime, greutate și experiența pe pârtie, apoi te ajutăm să alegi. Avem cabină de schimb și spațiu unde îți poți lăsa bagajele până la întoarcere. Dacă ai rezervat în avans, pregătim echipamentul pe mărimea ta, astfel încât totul să meargă mai repede."
         },
         {
           "icon": "taxi",
           "time": "Minutele 15 - 25",
-          "h3": "Taxiul",
-          "text": "Îl chemăm noi. Costă aproximativ 30 lei pe cursă, pentru până la 3 persoane echipate complet, și ajunge la gondolă în aproximativ 10 minute."
+          "h3": "Drumul către gondolă",
+          "text": "Când ești pregătit, îți chemăm un taxi care te duce direct la baza Gondolei Sinaia. Drumul durează, în condiții obișnuite de trafic, aproximativ 10 minute. O cursă costă în jur de 30 lei și poate fi împărțită de până la trei persoane cu echipament."
         },
         {
           "icon": "gondola",
-          "time": "Minutul 30",
-          "h3": "Gondola",
-          "text": "Cu cartela de ski cumpărată online intri direct, fără coada de la casele de bilete. Cartela o cumperi din shop-ul online al gondolei: îți faci cont în 2 minute, chiar din tren."
+          "time": "În jurul minutului 30",
+          "h3": "Începe urcarea",
+          "text": "Îți recomandăm să cumperi cartela de schi online, înainte să ajungi la gondolă. Primești un cod QR pe care îl folosești la automatele de eliberare a cartelelor, fără să mai treci pe la casa de bilete. Dacă nu știi ce tip de cartelă să alegi, te ajutăm noi."
         }
       ],
-      "evening": "Seara te întorci la noi, predai echipamentul și îți iei bagajul. Până la tren mai ai timp de o masă caldă: restaurantul Ramayana e la 50 de metri, iar cu voucherul primit la închiriere ai 10% reducere la nota finală. Apoi, 3 minute pe jos până în gară. Asta e tot."
+      "evening": "Te întorci la centru, predai echipamentul și îți recuperezi bagajele. Dacă ai timp până la plecarea trenului, poți lua masa la restaurantul Ramayana, aflat în apropiere. La închiriere primești din partea noastră un voucher care îți oferă 10% reducere la nota de plată. Apoi, în doar câteva minute de mers pe jos, ești înapoi la gară.",
+      "disclaimer": "Duratele sunt orientative și depind de trafic, aglomerație și condițiile de funcționare ale instalațiilor.",
+      "eveningH3": "Și la sfârșitul zilei?"
     },
     "services": {
-      "h2": "Ce găsești la noi",
-      "intro": "Nu suntem cel mai arătos centru din Sinaia. Suntem cel mai rapid. Tot ce ai nevoie într-o zi de ski e sub același acoperiș, la 3 minute de gară.",
+      "h2": "Tot ce ai nevoie pentru o zi la munte",
+      "intro": "Am adunat într-un singur loc lucrurile de care ai nevoie înainte să urci pe pârtie. Fie că vii pentru prima dată la schi, fie că te întorci în fiecare sezon, te ajutăm să pleci echipat și fără grija bagajelor.",
       "items": [
         {
           "icon": "skier",
-          "h3": "Echipament complet",
-          "text": "Schiuri, clăpari și bețe, sau placă și boots, pe mărimea și nivelul tău."
+          "h3": "Schiuri și snowboard",
+          "text": "Echipamente complete pentru copii și adulți, potrivite atât pentru începători, cât și pentru cei cu experiență. Te ajutăm să alegi schiurile, clăparii sau placa de snowboard în funcție de nivelul și dimensiunile tale."
         },
         {
           "icon": "sled",
-          "h3": "Sănii",
-          "text": "Pentru copii mici, prin oraș și în Parcul Dimitrie Ghica, chiar în fața centrului. Avem și scaun cu centură."
+          "h3": "Sănii pentru copii",
+          "text": "Și cei mici se pot bucura de zăpadă, chiar dacă nu au ajuns încă pe schiuri. Avem sănii de închiriat, inclusiv modele cu scaun și centură pentru copiii mai mici."
         },
         {
           "icon": "helmet",
-          "h3": "Cască și ochelari",
-          "text": "Le închiriezi separat, cu 15 lei pe zi fiecare."
+          "h3": "Căști și ochelari de schi",
+          "text": "Dacă nu ai propriile accesorii, le poți închiria de la noi. Casca și ochelarii sunt disponibili separat, fiecare la 15 lei pe zi."
         },
         {
           "icon": "cabin",
           "h3": "Cabină de schimb",
-          "text": "Vii în blugi, pleci în costum de ski."
+          "text": "Nu trebuie să călătorești până la Sinaia îmbrăcat în echipamentul de schi. Te poți schimba confortabil la centru, înainte de plecarea spre gondolă."
         },
         {
           "icon": "bag",
           "h3": "Depozit de bagaje",
-          "text": "Rucsacul, geanta, hainele de oraș rămân la noi până seara."
+          "text": "Lasă la noi rucsacul, geanta de voiaj sau hainele de oraș. Le păstrăm până la întoarcerea ta, ca să te poți bucura de ziua de schi fără bagaje inutile."
         },
         {
           "icon": "taxi",
-          "h3": "Taxi chemat de noi",
-          "text": "Aproximativ 30 lei pe cursă până la gondolă, până la 3 persoane cu echipament."
+          "h3": "Taxi până la gondolă",
+          "text": "Nu trebuie să cauți singur transport. Îți chemăm noi un taxi care te duce la gondolă. Cursa costă aproximativ 30 lei, pentru maximum trei persoane echipate."
         },
         {
           "icon": "card",
-          "h3": "Cartela de ski",
-          "text": "Îți spunem ce cartelă să iei pentru ziua ta și cum o cumperi online, ca să nu stai la coadă."
+          "h3": "Ajutor la cumpărarea cartelei",
+          "text": "Nu știi dacă ai nevoie de o cartelă de jumătate de zi sau de una pentru întreaga zi? Îți explicăm opțiunile și îți arătăm cum poți cumpăra online, înainte să ajungi la gondolă."
         },
         {
           "icon": "weather",
-          "h3": "Vremea pe pârtie",
-          "text": "Scrie-ne pe WhatsApp dimineața și îți spunem cum e sus înainte să pleci din București."
+          "h3": "Informații despre vreme și pârtii",
+          "text": "Vremea de pe munte poate fi foarte diferită de cea din oraș. Scrie-ne dimineața pe WhatsApp și te ajutăm cu informațiile disponibile despre condițiile de schi și instalațiile deschise."
         },
         {
           "icon": "school",
-          "h3": "Școală de ski și snowboard",
-          "text": "Instructori la același punct de plecare, detalii pe pagina școlii."
+          "h3": "Lecții de schi și snowboard",
+          "text": "Dacă vrei să înveți să schiezi sau să îți îmbunătățești tehnica, poți programa o lecție cu instructorul nostru. Organizăm lecții private pentru copii și adulți, în română sau în engleză."
         },
         {
           "icon": "calendar",
-          "h3": "Rezervare online",
-          "text": "Trimiți cererea seara, echipamentul te așteaptă dimineața."
+          "h3": "Rezervări în avans",
+          "text": "Știi deja în ce zi ajungi? Trimite-ne din timp detaliile, iar noi îți pregătim echipamentul potrivit. La sosire mai rămâne doar să îl probezi și să te pregătești de pârtie."
         },
         {
           "icon": "voucher",
-          "h3": "10% reducere la Ramayana",
-          "text": "După ce ai închiriat și ai plătit, primești un voucher pe hârtie: îl arăți la restaurantul Ramayana (Bd. Carol I nr. 19, la 50 de metri) și ai 10% reducere la nota finală.",
+          "h3": "10% reducere la restaurantul Ramayana",
+          "text": "După o zi pe munte, o masă caldă e binevenită. Clienții centrului primesc la închiriere un voucher de 10% reducere la restaurantul Ramayana, situat pe Bulevardul Carol I nr. 19, în apropierea noastră.",
           "highlight": true
         },
         {
           "icon": "no",
-          "h3": "Ce nu avem",
-          "text": "Toaletă. O spunem deschis, ca să nu fie o surpriză.",
+          "h3": "Un detaliu util înainte să vii",
+          "text": "Centrul nostru dispune de cabină de schimb și spațiu pentru bagaje, însă nu are toaletă pentru clienți. Preferăm să știi acest lucru dinainte, ca să îți poți organiza oprirea cât mai bine.",
           "muted": true
         }
       ]
     },
     "pricing": {
-      "h2": "Tarifar închirieri",
-      "intro": "Prețuri pe zi, fără taxe ascunse. Cel mai mic preț din Sinaia la echipamentul complet. Garanție: o copie a actului de identitate, fără bani și fără să îți reținem actul.",
-      "note": "Pentru închirieri de mai multe zile sau grupuri, scrie-ne pe WhatsApp, prețul se negociază.",
-      "colItem": "Ce închiriezi",
-      "colContent": "Ce conține",
+      "h2": "Tarife închirieri schi, snowboard și sănii",
+      "intro": "Credem că o zi la munte trebuie să fie accesibilă. De aceea, păstrăm tarife simple, comunicate de la început, fără costuri ascunse.",
+      "note": "Dacă vii cu un grup sau vrei să închiriezi pentru mai multe zile, scrie-ne pe WhatsApp. Putem discuta un tarif adaptat perioadei și numărului de persoane.",
+      "colItem": "Echipament",
+      "colContent": "Include",
       "rows": [
         {
-          "item": "Echipament complet ski",
-          "content": "Schiuri + clăpari + bețe",
+          "item": "Set complet schi",
+          "content": "Schiuri, clăpari și bețe",
           "key": "full"
         },
         {
-          "item": "Echipament complet snowboard",
-          "content": "Placă + boots",
+          "item": "Set complet snowboard",
+          "content": "Placă și boots",
           "key": "full"
         },
         {
-          "item": "Doar schiuri",
-          "content": "",
+          "item": "Schiuri",
+          "content": "O pereche de schiuri",
           "key": "skis"
         },
         {
-          "item": "Doar clăpari",
-          "content": "",
+          "item": "Clăpari",
+          "content": "O pereche de clăpari",
           "key": "boots"
         },
         {
-          "item": "Doar bețe",
-          "content": "",
+          "item": "Bețe",
+          "content": "O pereche de bețe",
           "key": "poles"
         },
         {
           "item": "Cască",
-          "content": "",
+          "content": "Cască de protecție",
           "key": "helmet"
         },
         {
-          "item": "Ochelari de ski",
-          "content": "",
+          "item": "Ochelari",
+          "content": "Ochelari de schi",
           "key": "goggles"
         },
         {
           "item": "Sanie",
-          "content": "",
+          "content": "O sanie",
           "key": "sled"
         }
-      ]
+      ],
+      "guarantee": "Pentru închiriere, solicităm o copie a actului de identitate drept garanție. Nu cerem o sumă suplimentară și nu păstrăm actul în original."
     },
     "school": {
       "eyebrow": "Monitor Ski & Snowboard Sinaia",
-      "h2": "Școala de ski și snowboard",
-      "text": "Lecții private de ski și snowboard, în română sau engleză, pentru copii de la 3 ani și adulți. Pleci de la centrul de închirieri cu instructorul, deci nu cauți pe nimeni la baza pârtiei. Nota 5 din 5 pe Google, din 36 de recenzii.",
-      "whyH3": "De ce lecția durează 2 ore",
-      "why": "O oră nu ajunge ca un începător să treacă prin toate exercițiile de bază. Mai mult de două ore e prea mult efort fizic pentru cineva care abia a pus clăparii. Lecția de 2 ore e cea pe care o recomandăm începătorilor.",
-      "more": "Detalii despre lecții, prețuri și întrebări frecvente",
-      "colLesson": "Lecție",
-      "colPrice": "Preț",
+      "h2": "Învață să schiezi cu încredere, în ritmul tău",
+      "text": "Primele coborâri sunt mai plăcute atunci când ai pe cineva lângă tine care îți explică fiecare mișcare și te ajută să capeți încredere. Organizăm lecții private de schi și snowboard pentru copii începând de la 3 ani și pentru adulți, indiferent de nivel. Ne întâlnim la centrul de închirieri, pregătim echipamentul și pornim împreună către pârtie. Lecțiile se desfășoară în română sau engleză, iar școala noastră are o evaluare de 5 din 5 pe Google, din 36 de recenzii.",
+      "whyH3": "De ce recomandăm lecțiile de două ore?",
+      "why": "În primele minute pe schiuri înveți să îți găsești echilibrul, să controlezi viteza și să te oprești. Pentru a exersa toate acestea în liniște, este nevoie de ceva mai mult decât o oră. Din experiența noastră, două ore reprezintă un interval potrivit pentru o primă lecție: suficient pentru a înțelege și repeta exercițiile de bază, fără să ajungi la un nivel prea mare de oboseală.",
+      "more": "Detalii despre lecții și prețuri",
+      "colLesson": "Tipul lecției",
+      "colPrice": "Tarif",
       "rows": [
         {
-          "item": "Tarif orar, lecție privată",
-          "price": "250 lei / oră"
+          "item": "Lecție privată, o oră",
+          "price": "250 lei"
         },
         {
-          "item": "Lecția recomandată: privat, 2 ore",
+          "item": "Lecție privată, două ore",
           "price": "500 lei"
         },
         {
-          "item": "Grup de la 2 persoane, 2 ore",
-          "price": "25% reducere la preț de persoană",
-          "soft": true
+          "item": "Grup de minimum două persoane, două ore",
+          "price": "400 lei / persoană"
         }
       ],
-      "note": "Pentru grupuri mai mari sau mai multe zile de lecții, prețul se negociază."
+      "note": "Pentru grupuri mai mari sau lecții organizate pe parcursul mai multor zile, putem stabili o ofertă personalizată."
     },
     "reviews": {
-      "h2": "Ce spun cei care au trecut pe la noi",
+      "h2": "Experiențele celor care ne-au vizitat",
       "items": [
         {
           "who": "rental",
@@ -330,38 +335,39 @@
           "text": "My 8 yr old learner recently took ski lessons from Edi. He is gentle, fun, kid-friendly, and has an effective teaching style. He is very well organized and punctual, which means he doesn't waste your time.",
           "name": "Recenzie Google, școală"
         }
-      ]
+      ],
+      "intro": "Ne bucură de fiecare dată când cei care ne-au trecut pragul aleg să revină la Sinaia și în sezonul următor. Iar pentru cei care ajung la noi pentru prima dată, experiențele altor turiști sunt probabil cea mai bună recomandare."
     },
     "booking": {
-      "h2": "Rezervă de seara, dimineața e gata",
-      "text": "Completezi formularul, vezi totalul pe loc și trimiți cererea pe WhatsApp. Îți confirmăm în cel mult o oră, între 08:00 și 18:00. Echipamentul te așteaptă pus deoparte, pe mărimea ta. Nu plătești nimic online, plătești la ridicare.",
-      "note": "Rezervarea e confirmată doar după răspunsul nostru pe WhatsApp, în limita stocului. Pentru mai multe persoane, treci mărimile celorlalți la observații; totul pleacă într-un singur mesaj.",
+      "h2": "Rezervă din timp. Noi pregătim echipamentul.",
+      "text": "Dacă știi deja când ajungi la Sinaia, îți recomandăm să rezervi echipamentul înainte de plecare. Completezi formularul cu perioada, mărimile și tipul de echipament dorit. Vezi costul estimat, apoi ne trimiți cererea direct pe WhatsApp. Îți confirmăm disponibilitatea și pregătim echipamentul pentru ziua aleasă. Nu ai nimic de plătit în avans. Plata se face la centru, când ridici echipamentul.",
+      "note": "Îți răspundem în maximum o oră, în intervalul 08:00 - 18:00. Rezervarea devine valabilă după confirmarea noastră pe WhatsApp, în limita echipamentelor disponibile. Pentru grupuri, poți adăuga mărimile și detaliile celorlalte persoane în câmpul de observații. Vom verifica disponibilitatea pentru fiecare echipament.",
       "fields": {
-        "start": "Prima zi",
-        "end": "Ultima zi",
-        "kind": "Ski sau snowboard",
-        "ski": "Ski",
+        "start": "Prima zi de închiriere",
+        "end": "Ultima zi de închiriere",
+        "kind": "Ce echipament dorești?",
+        "ski": "Schi",
         "snowboard": "Snowboard",
-        "level": "Nivel",
+        "level": "Nivelul tău",
         "beginner": "Începător",
-        "intermediate": "Mediu",
+        "intermediate": "Intermediar",
         "advanced": "Avansat",
         "height": "Înălțime (cm)",
         "weight": "Greutate (kg)",
-        "shoe": "Nr. la picior",
-        "persons": "Persoane",
+        "shoe": "Mărime încălțăminte",
+        "persons": "Număr de persoane",
         "helmet": "Cască (15 lei/zi)",
-        "goggles": "Ochelari (15 lei/zi)",
+        "goggles": "Ochelari de schi (15 lei/zi)",
         "sleds": "Sănii (40 lei/zi)",
-        "name": "Nume",
-        "phone": "Telefon",
-        "email": "Email",
-        "notes": "Observații (opțional)",
+        "name": "Nume și prenume",
+        "phone": "Număr de telefon",
+        "email": "Adresă de email",
+        "notes": "Alte detalii (opțional)",
         "notesPlaceholder": "Mărimile celorlalte persoane, întrebări",
-        "totalLabel": "Total estimat, plătești la ridicare",
+        "totalLabel": "Cost estimat pentru perioada selectată",
         "day": "zi",
         "days": "zile",
-        "submit": "Trimite cererea pe WhatsApp"
+        "submit": "Trimite rezervarea pe WhatsApp"
       },
       "message": {
         "intro": "Bună! Vreau să rezerv:",
@@ -385,13 +391,16 @@
       }
     },
     "contact": {
-      "h2": "Unde ne găsești",
+      "h2": "Ne găsești la câțiva pași de Gara Sinaia",
       "addressLabel": "Adresă",
-      "addressText": "Str. Octavian Goga nr. 1, Sinaia, Prahova. La 3 minute pe jos de Gara Sinaia: urci scările din fața gării și mergi drept pe Octavian Goga.",
+      "addressText": "Strada Octavian Goga nr. 1, Sinaia, județul Prahova.",
       "hoursLabel": "Program",
-      "hoursText": "Zilnic 08:00 - 18:00, pe toată durata sezonului de ski. În afara sezonului, scrie-ne pe WhatsApp înainte să vii.",
-      "reviewAsk": "Ai fost mulțumit? Un review de 30 de secunde ne ajută mai mult decât orice reclamă."
-    }
+      "hoursText": "Zilnic, între 08:00 și 18:00, pe întreaga durată a sezonului de schi. În afara sezonului, te rugăm să ne contactezi înainte de a veni.",
+      "reviewAsk": "Dacă ai închiriat echipament sau ai luat lecții de schi alături de noi, ne-ar face plăcere să aflăm cum a fost. O recenzie pe Google îi ajută și pe alți turiști să ne descopere.",
+      "intro": "Fie că ajungi cu trenul sau ești deja în oraș, ne găsești ușor, pe strada Octavian Goga nr. 1. Din fața gării urci scările și continui pe strada Octavian Goga. După aproximativ trei minute de mers pe jos ajungi la centrul nostru.",
+      "reviewH3": "Ți-a plăcut experiența?"
+    },
+    "priceLine": "Echipament complet de schi sau snowboard: 60 lei/zi."
   },
   "pages": {
     "inchirieri-ski-snowboard-sinaia": {
@@ -505,7 +514,7 @@
         {
           "type": "lessonPricing",
           "h2": "Prețuri lecții",
-          "intro": "Echipamentul nu e inclus; îl închiriezi tot de la noi, 60 lei pe zi. Pentru mai multe zile sau grupuri mari, prețul se negociază."
+          "intro": "Echipamentul nu e inclus; îl închiriezi tot de la noi, 60 lei pe zi. Pentru grupuri mai mari sau lecții organizate pe parcursul mai multor zile, putem stabili o ofertă personalizată."
         },
         {
           "type": "reviews",
