@@ -405,6 +405,7 @@ mkdirSync(DIST, { recursive: true });
 cpSync(join(ROOT, 'src/css'), join(DIST, 'css'), { recursive: true });
 cpSync(join(ROOT, 'src/js'), join(DIST, 'js'), { recursive: true });
 if (existsSync(join(ROOT, 'src/img'))) cpSync(join(ROOT, 'src/img'), join(DIST, 'img'), { recursive: true });
+if (existsSync(join(ROOT, 'src/static'))) cpSync(join(ROOT, 'src/static'), DIST, { recursive: true }); // fișiere de verificare etc., copiate în rădăcină
 writeFileSync(join(DIST, 'favicon.svg'), '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><rect width="36" height="36" rx="8" fill="#1D5FD1"/><path d="M8 26 L17 10 L22 19 L25 15 L30 26 Z" fill="#fff"/></svg>');
 
 const urls = [];
