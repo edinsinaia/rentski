@@ -50,3 +50,9 @@ Site-ul nu depinde de Romarg: `dist/` merge pe orice server. Pe Vercel: conectez
 - DNS-ul e la Cloudflare, într-un cont al unui prieten; nu se atinge până nu mutăm hostingul.
 - Textele marcate `[De completat de Edi ...]` în `content/ro.json` sunt locuri unde lipsesc încă informații; se văd și pe site până sunt completate.
 - Prețurile pe componente (schiuri 40 / clăpari 40 / bețe 20) au fost spuse din memorie; de confirmat la centru înainte de publicare.
+
+## Publicare automată (din oct 2026)
+
+`dist/` este inclus în repo. Pe server, în `public_html/_deploy/`, stă `deploy.php` (din folderul `deploy/` al acestui repo) și un fișier `.key` cu o cheie secretă. Apelul
+`https://rentski.ro/_deploy/deploy.php?key=<cheie>` descarcă `main` de pe GitHub și copiază `dist/` în `public_html`. Deci: modifici textul, rulezi `npm run build`, dai commit + push, apoi deschizi linkul de deploy. Claude face toți pașii de aici.
+Cheia nu este în repo. Dacă se pierde, se scrie alta în `public_html/_deploy/.key` din cPanel.

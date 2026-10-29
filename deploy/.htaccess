@@ -1,0 +1,4 @@
+# nimeni nu citește cheia prin web
+<Files ".key">
+  Require all denied
+</Files>

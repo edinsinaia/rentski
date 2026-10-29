@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://rentski.ro%{REQUEST_URI} [L,R=301]
+ErrorDocument 404 /index.html
+# vechile adrese WordPress
+Redirect 301 /ro/ /
+Redirect 301 /ro/prices/ /#preturi
+Redirect 301 /ro/about/ /
+Redirect 301 /ro/contact-us/ /#contact
+Redirect 301 /ro/sports-equipments/ /inchirieri-ski-snowboard-sinaia/
+Redirect 301 /en/ /
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
