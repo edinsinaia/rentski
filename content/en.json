@@ -1,0 +1,336 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "locale": "en_GB",
+  "brand": "Ski & Snowboard Rental Sinaia",
+  "brandShort": "Ski & Snowboard\nRental Sinaia",
+  "legal": "Frățilă Gh. Cornel PFA",
+  "address": "Str. Octavian Goga nr. 1, Sinaia, Prahova",
+  "addressLine": "1 Octavian Goga Street, Sinaia",
+  "hours": "Daily 08:00 - 18:00 throughout the ski season",
+  "phones": {
+    "rental": {"display": "+40 745 015 241", "wa": "40745015241", "who": "Ski, snowboard and sled rental", "name": "Cornel Frățilă"},
+    "school": {"display": "+40 745 646 032", "wa": "40745646032", "who": "Ski and snowboard lessons", "name": "Edi Frățilă"}
+  },
+  "google": {
+    "rental": {"name": "Ski & Snowboard Rental Centre", "rating": "4.5", "count": 45, "url": "https://share.google/QogxNhVKNXeX2kRHA", "review": "https://search.google.com/local/writereview?placeid=ChIJ9y-FC7kXs0ARF7ZnyZN6eOg"},
+    "school": {"name": "Monitor Ski & Snowboard Sinaia", "rating": "5.0", "count": 36, "url": "https://share.google/nDjGrkq4dlwhS0M2V", "review": "https://search.google.com/local/writereview?placeid=ChIJ05irOyoXs0ARYscIe7U7rjU"}
+  },
+  "links": {
+    "passShop": "https://gondolasinaia.axess.shop/en/Products/Tickets/",
+    "webcam": "https://sinaiago.ro/",
+    "mapEmbed": "https://www.google.com/maps?q=Strada+Octavian+Goga+1,+Sinaia&output=embed",
+    "mapOpen": "https://www.google.com/maps/search/?api=1&query=Strada+Octavian+Goga+1+Sinaia",
+    "gondolaFacebook": "https://www.facebook.com/share/1A3qyiqGR3/"
+  },
+  "prices": {"full": 60, "skis": 40, "boots": 40, "poles": 20, "helmet": 15, "goggles": 15, "sled": 40, "lessonHour": 250, "lesson2h": 500, "groupDiscount": 25, "lessonGroup": 400},
+  "ui": {
+    "skipToContent": "Skip to content",
+    "menu": "Menu",
+    "langLabel": "Language",
+    "home": "Home",
+    "reserve": "Book your equipment",
+    "reserveSled": "Book a sled",
+    "whatsapp": "Message us on WhatsApp",
+    "whatsappSchool": "Message the instructor on WhatsApp",
+    "openWhatsapp": "Open WhatsApp",
+    "allReviews": "Read all reviews",
+    "leaveReview": "Leave us a review",
+    "reviewRental": "Review the rental centre",
+    "reviewSchool": "Review the ski school",
+    "contact": "Contact",
+    "googleReview": "Google reviews",
+    "faq": "Frequently asked questions",
+    "perDay": "Price/day",
+    "openMap": "Open in Google Maps",
+    "youAreHere": "You are here",
+    "footerNote": "Prices are in Romanian lei (RON) and include VAT. A booking is confirmed only after our reply on WhatsApp, subject to availability."
+  },
+  "nav": [
+    {"slug": "inchirieri-ski-snowboard-sinaia", "label": "Rental"},
+    {"slug": "scoala-ski-sinaia", "label": "Ski school"},
+    {"slug": "sanii-sinaia", "label": "Sleds"},
+    {"slug": "cartela-ski-sinaia", "label": "Ski pass"},
+    {"slug": "gara-sinaia-gondola", "label": "Station to gondola"},
+    {"slug": "vremea-partii-sinaia", "label": "Weather"},
+    {"slug": "#rezervare", "label": "Booking"}
+  ],
+  "home": {
+    "title": "Ski & Snowboard Rental Sinaia, next to the train station, 60 lei/day",
+    "description": "Ski, snowboard and sled rental 3 minutes from Sinaia train station. Changing room, luggage storage, taxi to the gondola. Ski school. Book online.",
+    "eyebrow": "Just 3 minutes from Sinaia train station",
+    "h1": "Step off the train, gear up and head for the slopes.",
+    "lead": "A good day of skiing starts with as little time as possible wasted getting there. At our rental centre, a 3-minute walk from Sinaia train station, you'll find ski and snowboard equipment for children and adults, sleds, and everything else you need for a day in the snow. We help you choose the right gear, you can change here, leave your luggage with us safely and, when you're ready, we call you a taxi to the gondola.",
+    "priceLine": "Full ski or snowboard set: 60 lei/day.",
+    "hoursLine": "Find us at 1 Octavian Goga Street, Sinaia, daily from 08:00 to 18:00 during the ski season.",
+    "panelTitle": "Train to gondola in about 30 minutes",
+    "panel": [
+      {"t": "0'", "text": "You arrive at Sinaia station. Step off the train and walk to our rental centre."},
+      {"t": "3'", "text": "You're already here. Pick your gear, get changed and drop off your bags."},
+      {"t": "15'", "text": "Off to the gondola. We call you a taxi so you don't waste time looking for transport."},
+      {"t": "30'", "text": "Ready to go up. You reach the gondola base and, with a pass bought online, skip the ticket queue.", "strong": true}
+    ],
+    "route": {
+      "h2": "How a ski day with us begins",
+      "intro": "If you come to Sinaia by train, there's no need to cross town dragging your bags or hunt for a rental shop near the slopes. We're right by the station, in a spot from which your whole day is easy to organise.",
+      "steps": [
+        {"icon": "train", "time": "Minute 0", "h3": "You've arrived in Sinaia", "text": "As you leave the station, climb the stairs in front of it and continue along Octavian Goga Street. Our centre is at number 1, about a three-minute walk."},
+        {"icon": "home", "time": "Minutes 3 - 15", "h3": "We pick the right gear together", "text": "You don't need to know in advance which skis or boots suit you. We ask a few questions about height, weight and experience on the slopes, then help you choose. We have a changing room and a place to leave your luggage until you return. If you booked in advance, your equipment is prepared in your size so everything goes faster."},
+        {"icon": "taxi", "time": "Minutes 15 - 25", "h3": "The ride to the gondola", "text": "When you're ready, we call a taxi that takes you straight to the base of the Sinaia gondola. In normal traffic the ride takes about 10 minutes. A ride costs around 30 lei and can be shared by up to three people with equipment."},
+        {"icon": "gondola", "time": "Around minute 30", "h3": "The climb begins", "text": "We recommend buying your ski pass online before you reach the gondola. You receive a QR code to use at the pass machines, without stopping at the ticket office. If you're not sure which pass to choose, we'll help."}
+      ],
+      "disclaimer": "Times are indicative and depend on traffic, crowds and lift operations.",
+      "eveningH3": "And at the end of the day?",
+      "evening": "Come back to the centre, return the equipment and collect your bags. If you have time before your train, you can eat at the nearby Ramayana restaurant: when you rent, we give you a voucher for 10% off your bill. Then it's just a few minutes' walk back to the station."
+    },
+    "services": {
+      "h2": "Everything you need for a day in the mountains",
+      "intro": "We've put everything you need before heading up the slopes in one place. Whether it's your first time on skis or you come back every season, we help you leave fully equipped and without worrying about your luggage.",
+      "items": [
+        {"icon": "skier", "h3": "Skis and snowboards", "text": "Full sets for children and adults, suited to beginners and experienced riders alike. We help you choose skis, boots or a snowboard based on your level and size."},
+        {"icon": "sled", "h3": "Sleds for children", "text": "The little ones can enjoy the snow too, even before they're on skis. We rent sleds, including models with a seat and safety belt for younger children."},
+        {"icon": "helmet", "h3": "Helmets and ski goggles", "text": "No accessories of your own? Rent them here. Helmets and goggles are available separately, 15 lei per day each."},
+        {"icon": "cabin", "h3": "Changing room", "text": "No need to travel to Sinaia in your ski clothes. Change comfortably at the centre before leaving for the gondola."},
+        {"icon": "bag", "h3": "Luggage storage", "text": "Leave your backpack, travel bag or town clothes with us. We keep them until you return, so you can enjoy the day without extra baggage."},
+        {"icon": "taxi", "h3": "Taxi to the gondola", "text": "No need to find transport yourself. We call a taxi that takes you to the gondola. The ride costs around 30 lei for up to three people with equipment."},
+        {"icon": "card", "h3": "Help with your ski pass", "text": "Not sure whether you need a half-day or a full-day pass? We explain the options and show you how to buy online before you reach the gondola."},
+        {"icon": "weather", "h3": "Weather and slope information", "text": "Mountain weather can be very different from the weather in town. Message us on WhatsApp in the morning and we'll share what we know about ski conditions and open lifts."},
+        {"icon": "school", "h3": "Ski and snowboard lessons", "text": "Want to learn to ski or improve your technique? Book a lesson with our instructor. We run private lessons for children and adults, in English or Romanian."},
+        {"icon": "calendar", "h3": "Advance booking", "text": "Already know which day you're arriving? Send us the details in advance and we'll have the right equipment ready. On arrival, all that's left is to try it on and head for the slopes."},
+        {"icon": "voucher", "h3": "10% off at Ramayana restaurant", "text": "After a day in the mountains, a hot meal is welcome. When you rent from us you receive a voucher for 10% off at Ramayana restaurant, 19 Carol I Boulevard, close to the centre.", "highlight": true},
+        {"icon": "no", "h3": "One useful detail before you come", "text": "Our centre has a changing room and luggage storage, but no customer toilet. We'd rather you know in advance so you can plan your stop.", "muted": true}
+      ]
+    },
+    "pricing": {
+      "h2": "Ski, snowboard and sled rental prices",
+      "intro": "We believe a day in the mountains should be affordable. That's why we keep prices simple, stated upfront, with no hidden costs.",
+      "guarantee": "As a deposit we ask for a copy of your ID. We don't charge an extra sum and we don't keep the original document.",
+      "note": "Coming as a group or renting for several days? Message us on WhatsApp and we can agree a rate for the period and number of people.",
+      "colItem": "Equipment", "colContent": "Includes",
+      "rows": [
+        {"item": "Full ski set", "content": "Skis, boots and poles", "key": "full"},
+        {"item": "Full snowboard set", "content": "Board and boots", "key": "full"},
+        {"item": "Skis", "content": "A pair of skis", "key": "skis"},
+        {"item": "Ski boots", "content": "A pair of ski boots", "key": "boots"},
+        {"item": "Poles", "content": "A pair of poles", "key": "poles"},
+        {"item": "Helmet", "content": "Protective helmet", "key": "helmet"},
+        {"item": "Goggles", "content": "Ski goggles", "key": "goggles"},
+        {"item": "Sled", "content": "One sled", "key": "sled"}
+      ]
+    },
+    "school": {
+      "eyebrow": "Monitor Ski & Snowboard Sinaia",
+      "h2": "Learn to ski with confidence, at your own pace",
+      "text": "The first runs are more enjoyable with someone beside you explaining each movement and helping you build confidence. We run private ski and snowboard lessons for children from age 3 and for adults of any level. We meet at the rental centre, get the equipment ready and head for the slopes together. Lessons are in English or Romanian, and our school is rated 5 out of 5 on Google from 36 reviews.",
+      "whyH3": "Why we recommend two-hour lessons",
+      "why": "In your first minutes on skis you learn to find your balance, control your speed and stop. Practising all of that calmly takes a bit more than an hour. In our experience, two hours is the right length for a first lesson: enough to understand and repeat the basic exercises without getting too tired.",
+      "more": "Lesson details and prices",
+      "colLesson": "Lesson", "colPrice": "Price",
+      "rows": [
+        {"item": "Private lesson, one hour", "price": "250 lei"},
+        {"item": "Private lesson, two hours", "price": "500 lei"},
+        {"item": "Group of two or more, two hours", "price": "400 lei / person"}
+      ],
+      "note": "For larger groups or lessons over several days we can put together a custom offer."
+    },
+    "reviews": {
+      "h2": "What our visitors say",
+      "intro": "It makes us happy every time someone who has been here chooses to come back to Sinaia the following season. And for those visiting for the first time, other travellers' experiences are probably the best recommendation.",
+      "items": [
+        {"who": "rental", "text": "Rented equipment with 6 of my friends for the weekend. The owner is available by phone, speak fluently english and is really friendly. He even let me borrow his gloves since i forgot mine! Great shop, i recommend!", "name": "Google review, rental"},
+        {"who": "rental", "text": "We organised equipment rental and ski lessons here and it was really fantastic. Equipment rental was affordable and straightforward, and they even looked after some of our equipment whilst we were on the mountain.", "name": "Google review, rental"},
+        {"who": "school", "text": "Edi taught my two kids (11 and 14) who had only had skiing lessons three years before. We were very happy with the way he got them up to speed in a matter of days!", "name": "Google review, ski school"},
+        {"who": "school", "text": "My 8 yr old learner recently took ski lessons from Edi. He is gentle, fun, kid-friendly, and has an effective teaching style. He is very well organized and punctual, which means he doesn't waste your time.", "name": "Google review, ski school"}
+      ]
+    },
+    "booking": {
+      "h2": "Book ahead. We'll have your gear ready.",
+      "text": "If you already know when you're arriving in Sinaia, we recommend booking your equipment before you leave. Fill in the form with your dates, sizes and the equipment you want. You see the estimated cost, then send the request straight to us on WhatsApp. We confirm availability and prepare the equipment for your day. Nothing to pay in advance: you pay at the centre when you pick up.",
+      "note": "We reply within an hour between 08:00 and 18:00. A booking is valid after our confirmation on WhatsApp, subject to availability. For groups, add the other people's sizes and details in the notes field; we'll check availability for each item.",
+      "fields": {
+        "start": "First rental day", "end": "Last rental day", "kind": "What equipment do you need?", "ski": "Ski", "snowboard": "Snowboard",
+        "level": "Your level", "beginner": "Beginner", "intermediate": "Intermediate", "advanced": "Advanced",
+        "height": "Height (cm)", "weight": "Weight (kg)", "shoe": "Shoe size (EU)", "persons": "Number of people",
+        "helmet": "Helmet (15 lei/day)", "goggles": "Ski goggles (15 lei/day)", "sleds": "Sleds (40 lei/day)",
+        "name": "Full name", "phone": "Phone number", "email": "Email address", "notes": "Other details (optional)",
+        "notesPlaceholder": "Sizes for the other people, questions",
+        "totalLabel": "Estimated cost for the selected period",
+        "day": "day", "days": "days",
+        "submit": "Send booking on WhatsApp"
+      },
+      "message": {
+        "intro": "Hello! I'd like to book:", "level": "level", "persons": "People", "helmet": "Helmet", "goggles": "goggles", "sleds": "sleds",
+        "yes": "yes", "no": "no", "period": "Dates", "total": "Estimated total", "name": "Name", "phone": "phone", "email": "email", "notes": "Notes",
+        "placeholderPeriod": "[dates]", "placeholderName": "[name]", "placeholderPhone": "[phone]", "placeholderEmail": "[email]",
+        "words": {"shoe": "shoe size"}
+      }
+    },
+    "contact": {
+      "h2": "A few steps from Sinaia train station",
+      "intro": "Whether you arrive by train or you're already in town, we're easy to find at 1 Octavian Goga Street. From the station, climb the stairs and continue along Octavian Goga Street; after about three minutes' walk you reach our centre.",
+      "addressLabel": "Address",
+      "addressText": "1 Octavian Goga Street, Sinaia, Prahova County, Romania.",
+      "hoursLabel": "Opening hours",
+      "hoursText": "Daily, 08:00 to 18:00, throughout the ski season. Outside the season, please contact us before coming.",
+      "reviewH3": "Enjoyed your visit?",
+      "reviewAsk": "If you rented equipment or took a ski lesson with us, we'd love to hear how it went. A Google review also helps other travellers find us."
+    }
+  },
+  "pages": {
+    "inchirieri-ski-snowboard-sinaia": {
+      "title": "Ski and snowboard rental in Sinaia, 60 lei/day, by the train station",
+      "description": "Full ski or snowboard set for 60 lei/day, 3 minutes from Sinaia train station. Changing room, luggage storage, taxi to the gondola. Book online.",
+      "crumb": "Rental",
+      "icon": "skier",
+      "eyebrow": "Ski and snowboard rental",
+      "h1": "Ski and snowboard rental 3 minutes from Sinaia train station",
+      "lead": "A full ski set (skis, boots, poles) or snowboard set (board, boots) for 60 lei a day, the lowest price in Sinaia. Sizes for children and adults, from beginner to advanced. We choose it together, based on height, weight and level, in 5 minutes. The deposit is simple: we take a copy of your ID. We don't keep your document and we don't ask for a cash deposit.",
+      "stat": {"big": "60 lei", "small": "per day, full set", "link": "See all prices", "href": "#preturi"},
+      "cta": {"primary": "reserve", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "text", "h2": "What else you'll find here", "text": "A changing room, luggage storage for the whole day, helmets and goggles at 15 lei a day each, and a taxi we call for you to the gondola (around 30 lei per ride, up to 3 people with equipment). When you rent, you also receive a voucher for 10% off at Ramayana restaurant, 50 metres away."},
+        {"type": "steps", "h2": "How it works", "items": [
+          "Book online the evening before, or just come in between 08:00 and 18:00.",
+          "Get changed, leave your bags, try on the boots.",
+          "Take the taxi to the gondola. In the evening, return the gear and collect your bags."
+        ]},
+        {"type": "pricing"}
+      ],
+      "faq": [
+        {"q": "Do I need to book?", "a": "No, but if you do, your equipment is set aside in your size and there's no wait at all."},
+        {"q": "Can I rent just boots or just skis?", "a": "Yes: skis 40 lei/day, boots 40 lei/day, poles 20 lei/day."},
+        {"q": "Do you have children's equipment?", "a": "Yes, from small boot sizes up to adults."},
+        {"q": "What do I leave as a deposit?", "a": "Nothing: we take a copy of your ID and that's it. You keep your document."},
+        {"q": "Can I leave my own equipment with you?", "a": "Yes, in the luggage storage, for the day."},
+        {"q": "What if the gondola isn't running?", "a": "We move your booking at no cost. If you've paid and the gondola didn't run at all that day, we refund you."}
+      ],
+      "ctaBand": {"h2": "Book in the evening, it's ready in the morning.", "text": "The form shows your total and sends the request on WhatsApp.", "button": "reserve"}
+    },
+    "scoala-ski-sinaia": {
+      "title": "Ski and snowboard school in Sinaia, private lessons, 5 stars on Google",
+      "description": "Private ski and snowboard lessons in Sinaia for children from age 3 and adults, in English or Romanian. 250 lei/hour, recommended 2-hour lesson 500 lei. Rated 5 on Google.",
+      "crumb": "Ski school",
+      "icon": "school",
+      "eyebrow": "Monitor Ski & Snowboard Sinaia",
+      "h1": "Private ski and snowboard lessons, starting from the centre by the station",
+      "lead": "For children from age 3 and adults, from the first day on snow to fine-tuning your technique. In English or Romanian. We meet at the rental centre, you gear up and we go up together: no searching for the instructor at the bottom of the slope, no lost first hour.",
+      "stat": {"big": "5.0", "stars": true, "small": "out of 5 on Google, 36 reviews", "link": "Read the reviews", "href": "google:school"},
+      "cta": {"primary": "whatsappSchool", "secondary": "reserve"},
+      "sections": [
+        {"type": "twoCol", "left": {"h2": "Why lessons last 2 hours", "paras": ["One hour isn't enough for a beginner to get through all the basic exercises. More than two hours is too much physical effort for someone who has just put on ski boots. That's why the recommended lesson is 2 hours.", "By the end of a first 2-hour lesson, a beginner can usually handle the equipment, glide, stop and make their first turns on the beginner slope."]}, "right": {"h2": "Who it's for", "items": [
+          "Children from age 3, with a parent nearby or not. We don't recommend lessons under 3.",
+          "Adults who have never skied and want to end the day on the slope, not in the snow.",
+          "Intermediate skiers who want to move on to harder runs.",
+          "Snowboarders, from the first glide to linked turns."
+        ]}},
+        {"type": "lessonPricing", "h2": "Lesson prices", "intro": "Equipment is not included; rent it from us for 60 lei a day. For larger groups or lessons over several days we can put together a custom offer."},
+        {"type": "reviews", "h2": "What parents and students say", "who": "school"}
+      ],
+      "faq": [
+        {"q": "How long until a beginner can ski down a slope alone?", "a": "By the end of a first 2-hour lesson you can usually glide, stop and make your first turns on the beginner slope. A whole run, alone and in control, usually comes after the second lesson."},
+        {"q": "Can I take a lesson without your equipment?", "a": "Yes, bring your own."},
+        {"q": "Can the lesson be moved if the weather is bad or the gondola isn't running?", "a": "Yes, at no cost. Message us on WhatsApp and we pick another day."},
+        {"q": "What languages are lessons in?", "a": "English and Romanian."}
+      ],
+      "ctaBand": {"h2": "Message us the day before and we'll set a time.", "text": "Edi Frățilă, instructor. We reply between 08:00 and 18:00.", "button": "whatsappSchoolNumber"}
+    },
+    "sanii-sinaia": {
+      "title": "Sled rental in Sinaia, 40 lei/day, by the train station",
+      "description": "Sled rental 3 minutes from Sinaia train station, 40 lei a day, for young children. Sledding in town and in Dimitrie Ghica Park, right in front of the centre. Seat with belt available.",
+      "crumb": "Sleds",
+      "icon": "sled",
+      "eyebrow": "Sled rental",
+      "h1": "Sled rental 3 minutes from Sinaia train station",
+      "lead": "Not everyone skis. For young children we have sleds at 40 lei a day, with a seat and belt for the littlest ones. Pick one up from us, 3 minutes from the station, and go sledding in Dimitrie Ghica Park, right in front of the centre. Your bags stay with us; in the evening you bring the sled back and head for your train.",
+      "stat": {"big": "40 lei", "small": "per day, one sled", "link": "Book a sled", "href": "/#rezervare"},
+      "cta": {"primary": "reserveSled", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "text", "h2": "Where to go sledding in Sinaia", "text": "Around town and in Dimitrie Ghica Park, the large park in front of our centre. Sleds aren't allowed on the gondola and there's no sledding run at the top, so a sledding day happens down in town: step off the train, pick up the sled, and in 3 minutes the kids are in the park."},
+        {"type": "text", "h2": "What age", "text": "The sleds are for young children, from about 2 - 3 years up. For the smallest we have a seat that attaches to the sled, with a safety belt."},
+        {"type": "text", "h2": "What to bring from home", "text": "Waterproof clothes, gloves, a hat. Children's helmets can be rented from us for 15 lei a day."}
+      ],
+      "faq": [
+        {"q": "Can I rent a sled for just a few hours?", "a": "No, sleds are rented by the day, 40 lei. Pick it up in the morning and bring it back by 18:00."},
+        {"q": "What age are the sleds for?", "a": "Young children, from about 2 - 3 years up. We also have a seat with a belt that attaches to the sled."},
+        {"q": "Can I take the sled up on the gondola?", "a": "No, sleds aren't allowed on the gondola and there's no sledding run at the top. Sledding is in town, in Dimitrie Ghica Park in front of the centre."},
+        {"q": "Can I book a sled online?", "a": "Yes, in the same form, enter the number of sleds."}
+      ],
+      "ctaBand": {"h2": "Book a sled the evening before.", "text": "Enter the number of sleds in the form; everything goes out on WhatsApp.", "button": "reserve"}
+    },
+    "cartela-ski-sinaia": {
+      "title": "Sinaia ski pass: how to buy it online and which one to get for a day",
+      "description": "The Sinaia ski pass is bought online from the gondola's official shop: account in 2 minutes, walk straight in without queuing. We tell you which pass suits you.",
+      "crumb": "Ski pass",
+      "icon": "card",
+      "eyebrow": "Ski pass",
+      "h1": "Your Sinaia ski pass, bought from the train",
+      "lead": "The ticket queue at the base of the gondola is the first place a ski morning gets lost. Buy your pass online from the gondola's official shop. Create an account (2 minutes), choose a pass, pay by card and walk straight in at the gondola. If you're not sure which pass suits you, message us on WhatsApp the day before.",
+      "stat": {"big": "2 min", "small": "to create an account and buy your pass online; at the gondola, scan the QR code and collect the card", "link": "The gondola's official shop", "href": "link:passShop"},
+      "cta": {"primary": "passShop", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "text", "h2": "How you enter the gondola with a pass bought online", "text": "You receive a QR code by email. At the gondola entrance there are two machines: scan the code and the machine gives you the physical card. No ticket office queue."},
+        {"type": "text", "h2": "Which pass for which day", "text": "For a beginner's first lesson we recommend the half-day pass: a two-hour lesson plus a little more on the beginner slope is plenty for a first day. For a full day of skiing, pass types and this season's prices are on the gondola's shop. If you're unsure, message us on WhatsApp the day before."},
+        {"type": "text", "h2": "Pass prices", "text": "The official prices for the current season are on the gondola's shop; they're set by the gondola operator, not by us, and change every season. We don't list them here so as not to mislead you."}
+      ],
+      "faq": [
+        {"q": "Can I buy the pass at the gondola?", "a": "Yes, at the ticket office, but that's the queue we'd like you to avoid."},
+        {"q": "Do I need an account to buy online?", "a": "Yes, you create one in 2 minutes on the shop, with your email."},
+        {"q": "Is the pass on my phone or a physical card?", "a": "A physical card: scan the QR code from your email at one of the two machines at the gondola entrance and you receive the card."},
+        {"q": "Which pass for a first lesson?", "a": "Half day. For a first day on skis that's enough."}
+      ],
+      "ctaBand": {"h2": "Not sure which pass to get?", "text": "Message us on WhatsApp the day before: we tell you what to get for your level and the time you have.", "button": "whatsapp"}
+    },
+    "gara-sinaia-gondola": {
+      "title": "How to get from Sinaia train station to the gondola: taxi, on foot or the old cable car",
+      "description": "From Sinaia train station to the gondola it's 4 km uphill. With equipment, the shortest route: 3 minutes' walk to the rental centre, then a taxi for about 30 lei, up to 3 people. What we don't recommend and why.",
+      "crumb": "Station to gondola",
+      "icon": "train",
+      "eyebrow": "From the station to the gondola",
+      "h1": "From the train to the gondola, with or without equipment",
+      "lead": "Sinaia train station is down in town. The gondola is up the hill, 4 kilometres away, at the top of a climb through the Furnica district. There are three ways between them, and the time lost varies a lot.",
+      "stat": {"big": "4 km", "small": "from the station to the gondola, uphill; about 10 minutes by taxi", "link": "See the route step by step", "href": "/#drum"},
+      "cta": {"primary": "reserve", "secondary": "whatsapp"},
+      "sections": [
+        {"type": "table", "h2": "The three options", "cols": ["Option", "How long", "How much", "Our view"], "rows": [
+          ["Taxi called from our centre", "approx. 10 minutes", "approx. 30 lei per ride, up to 3 people with equipment", "The one we recommend: you're on the slope 30 minutes after your train."],
+          ["The old cable car, from the town centre", "departs every half hour", "ski pass", "Not recommended: it carries 35 people every half hour, so when it's busy you wait a long time."],
+          ["On foot", "4 km uphill through the Furnica district", "0 lei", "A nice walk without equipment; with skis on your back you lose at least an hour of your ski day."]
+        ]},
+        {"type": "text", "h2": "The option we recommend", "text": "Stop at our centre, 3 minutes from the station. Get changed, gear up, leave your bags, and the taxi we call drops you at the base of the gondola. With a pass bought online, you walk straight in."},
+        {"type": "text", "h2": "In the evening, coming down", "text": "Also by taxi, also around 30 lei. Take the number of the taxi you went up with and call it as you board the gondola to come down: when you reach the car park at the gondola base, the taxi is already waiting."},
+        {"type": "map"}
+      ],
+      "faq": [
+        {"q": "Can I walk with skis on my back?", "a": "You can, but it's 4 kilometres uphill and you lose at least an hour. The taxi works out at 10 lei per person if there are three of you."},
+        {"q": "Isn't there a bus?", "a": "There is, but we don't recommend it in winter: it runs rarely and can get stuck at junctions or run late. For a ski day, time matters more than the price difference."},
+        {"q": "How do I get down in the evening?", "a": "By taxi, around 30 lei. Call the one you went up with as you board the gondola to come down, so it's waiting in the car park."}
+      ],
+      "ctaBand": {"h2": "Stop at our centre, 3 minutes from the station.", "text": "We gear you up and call your taxi. Book the evening before so there's no wait at all.", "button": "reserve"}
+    },
+    "vremea-partii-sinaia": {
+      "title": "Weather on the Sinaia slopes today: webcam, snow, which runs are open",
+      "description": "Check the weather on the Sinaia slopes before leaving home: live webcam and a WhatsApp message to the rental centre by the train station, open from 08:00.",
+      "crumb": "Weather",
+      "icon": "weather",
+      "eyebrow": "Weather and slopes",
+      "h1": "What it's like up there, before you leave home",
+      "lead": "Sinaia has two floors of weather: it can rain in town while it snows at Cota 2000. Before you board the train, check the webcam and message us on WhatsApp: we're 3 minutes from the station from 08:00 and we'll tell you how the slopes are, what's open and whether the day is worth it.",
+      "stat": {"big": "08:00", "small": "from this time we reply on WhatsApp with the weather on the slopes", "link": "Slope webcams", "href": "link:webcam"},
+      "cta": {"primary": "whatsappWeather", "secondary": "reserve"},
+      "sections": [
+        {"type": "today"},
+        {"type": "text", "h2": "Where to look in the morning", "text": "The Sinaia Gondola Facebook page posts every morning, around 8 - 8:30, the conditions at Cota 2000: which runs are open, how the snow is, what the weather is like up top. The slope webcams show a live picture. And from 08:00, we reply on WhatsApp.", "links": [{"label": "Sinaia Gondola on Facebook", "href": "link:gondolaFacebook"}, {"label": "Sinaia slope webcams", "href": "link:webcam"}]},
+        {"type": "text", "h2": "The ski season in Sinaia", "text": "The slopes usually open in December, depending on snow cover, and close sometime in April. There's no skiing in town: the slopes are up above it and you go up by gondola. Snow in town tells you nothing about snow up top."}
+      ],
+      "faq": [
+        {"q": "If the weather is bad or the gondola isn't running, can I cancel or move my booking?", "a": "Yes, at no cost. If you've paid for equipment and the gondola didn't run at all that day, we refund you. If you went up and skied, and the gondola closed towards the end of the day, the rental stays paid."},
+        {"q": "When does the ski season in Sinaia start?", "a": "Usually in December, when the snow cover allows. The season ends sometime in April. We announce on the site and on WhatsApp when we're open."},
+        {"q": "Can you ski in Sinaia when there's no snow in town?", "a": "Yes, often. The slopes are up at Cota 1400 and Cota 2000, where it snows even when it rains in town. Check the webcam or the gondola's page, not your window."},
+        {"q": "Can I go up with the old cable car from the centre?", "a": "You can, but we don't recommend it: it departs every half hour and carries 35 people per trip. When it's busy, you wait a long time."}
+      ],
+      "ctaBand": {"h2": "Ask us what it's like up there.", "text": "One WhatsApp message in the morning and you know whether the day is worth it.", "button": "whatsappWeather"}
+    }
+  },
+  "weatherMessage": "Hello! How is the weather on the slopes today and what's open?",
+  "today": {"h2": "On the slopes today", "text": "The 2026 - 2027 season hasn't started yet. From December, you'll find the slope conditions here every morning, written by us at the centre.", "updated": "Updated"}
+}

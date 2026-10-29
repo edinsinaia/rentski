@@ -36,7 +36,9 @@
     return Math.max(min, v);
   }
   function text(id, ph) { var v = $(id).value.trim(); return v || ph; }
-  function label(sel) { var el = $(sel); return el.options[el.selectedIndex].text.toLowerCase(); }
+  var W = M.words || {};
+  function label(sel) { var el = $(sel); var v = el.value; return (W[v] || el.options[el.selectedIndex].text).toLowerCase(); }
+  function word(k, fallback) { return W[k] || fallback; }
 
   function update() {
     var d = days();
@@ -50,10 +52,10 @@
 
     var period = ($('start').value && $('end').value) ? $('start').value + ' - ' + $('end').value : M.placeholderPeriod;
     var msg = M.intro + ' ' + label('kind') + ', ' + M.level + ' ' + label('level') + ', ' +
-      text('height', '[cm]') + ' cm, ' + text('weight', '[kg]') + ' kg, ' + F.shoe.toLowerCase() + ' ' + text('shoe', '[nr]') + '. ' +
+      text('height', '[cm]') + ' cm, ' + text('weight', '[kg]') + ' kg, ' + word('shoe', F.shoe).toLowerCase() + ' ' + text('shoe', '[nr]') + '. ' +
       M.persons + ': ' + persons + '. ' + M.helmet + ' ' + (helmet ? M.yes : M.no) + ', ' + M.goggles + ' ' + (goggles ? M.yes : M.no) +
       (sleds ? ', ' + M.sleds + ' ' + sleds : '') + '. ' +
-      M.period + ' ' + period + ' (' + d + ' ' + (d === 1 ? F.day : F.days) + '). ' +
+      M.period + ' ' + period + ' (' + d + ' ' + (d === 1 ? word('day', F.day) : word('days', F.days)) + '). ' +
       M.total + ' ' + total + ' lei. ' +
       M.name + ' ' + text('name', M.placeholderName) + ', ' + M.phone + ' ' + text('phone', M.placeholderPhone) + ', ' + M.email + ' ' + text('email', M.placeholderEmail) + '.' +
       ($('notes').value.trim() ? ' ' + M.notes + ': ' + $('notes').value.trim() : '');

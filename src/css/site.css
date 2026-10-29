@@ -324,3 +324,10 @@ td.soft { font-family: var(--font-body); font-weight: 700; font-size: 15px; colo
 .evening h3 { font-size: 18px; }
 .phone .person { font-size: 14px; font-weight: 600; }
 .review-ask h3 { font-size: 18px; }
+
+/* Ebraică / RTL */
+[dir="rtl"] { --font-display: "Heebo", "Plus Jakarta Sans", system-ui, sans-serif; --font-body: "Heebo", "Manrope", system-ui, sans-serif; }
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 { letter-spacing: 0; }
+[dir="rtl"] .eyebrow, [dir="rtl"] .eyebrow-dark, [dir="rtl"] .panel-head, [dir="rtl"] .card .time, [dir="rtl"] th { letter-spacing: 0; }
+[dir="rtl"] .panel-row .t, [dir="rtl"] .stat .big, [dir="rtl"] td.price, [dir="rtl"] .total .sum, [dir="rtl"] .brand, [dir="rtl"] .address, [dir="rtl"] .legal { unicode-bidi: plaintext; }
+[dir="rtl"] input[type="tel"], [dir="rtl"] input[type="email"], [dir="rtl"] input[type="number"], [dir="rtl"] input[type="date"] { direction: ltr; text-align: end; }

@@ -6,10 +6,11 @@ import { join } from 'node:path';
 const SITE = 'https://rentski.ro';
 const ROOT = new URL('.', import.meta.url).pathname;
 const DIST = join(ROOT, 'dist');
-const LANGS = readdirSync(join(ROOT, 'content')).filter(f => f.endsWith('.json')).map(f => f.replace('.json', ''));
+const LANG_ORDER = ['ro', 'en', 'he'];
+const LANGS = readdirSync(join(ROOT, 'content')).filter(f => f.endsWith('.json')).map(f => f.replace('.json', '')).sort((a, b) => (LANG_ORDER.indexOf(a) + 1 || 99) - (LANG_ORDER.indexOf(b) + 1 || 99));
 const DEFAULT_LANG = 'ro';
 
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 const nl2br = (s) => esc(s).replace(/\n/g, '<br>');
 
 // ---------- pictograme (linie, culoare curentă) ----------
@@ -78,7 +79,9 @@ function button(c, lang, key, cls) {
 // ---------- fragmente comune ----------
 function head(c, lang, { title, description, path, jsonld }) {
   const canonical = SITE + path;
-  const alternates = LANGS.map(l => `<link rel="alternate" hreflang="${l}" href="${SITE}${path.replace(langPrefix(lang) || '/', langPrefix(l) || '/').replace('//', '/')}">`).join('\n');
+  const bare = langPrefix(lang) && path.startsWith(langPrefix(lang) + '/') ? path.slice(langPrefix(lang).length) : path;
+  const altPath = (l) => langPrefix(l) + bare;
+  const alternates = LANGS.map(l => `<link rel="alternate" hreflang="${l}" href="${SITE}${altPath(l)}">`).join('\n');
   return `<!doctype html>
 <html lang="${lang}" dir="${c.dir}">
 <head>
@@ -88,7 +91,7 @@ function head(c, lang, { title, description, path, jsonld }) {
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${canonical}">
 ${alternates}
-<link rel="alternate" hreflang="x-default" href="${SITE}${path.replace(langPrefix(lang) || '/', '/').replace('//', '/')}">
+<link rel="alternate" hreflang="x-default" href="${SITE}${bare}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(c.brand)}">
 <meta property="og:title" content="${esc(title)}">
@@ -99,7 +102,7 @@ ${alternates}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Manrope:wght@400;500;600;700${c.dir === 'rtl' ? '&family=Heebo:wght@400;500;700;800' : ''}&display=swap">
 <link rel="stylesheet" href="/css/site.css">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
 </head>
@@ -127,7 +130,7 @@ ${nav}
 }
 
 function footer(c, lang) {
-  const nav = c.nav.filter(n => !n.slug.startsWith('#')).map(n => `<a href="${url(lang, n.slug)}">${esc(n.label)}</a>`).join('\n') + `\n<a href="${url(lang, '#contact')}">Contact</a>`;
+  const nav = c.nav.filter(n => !n.slug.startsWith('#')).map(n => `<a href="${url(lang, n.slug)}">${esc(n.label)}</a>`).join('\n') + `\n<a href="${url(lang, '#contact')}">${esc(c.ui.contact || 'Contact')}</a>`;
   return `</main>
 <div class="mobile-bar" aria-label="${esc(c.ui.reserve)} / WhatsApp">
 <a class="btn btn-primary" href="${url(lang, '#rezervare')}">${esc(c.ui.reserve)}</a>
