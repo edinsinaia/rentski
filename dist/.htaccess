@@ -10,6 +10,8 @@ Redirect 301 /ro/about/ /
 Redirect 301 /ro/contact-us/ /#contact
 Redirect 301 /ro/sports-equipments/ /inchirieri-ski-snowboard-sinaia/
 Redirect 301 /ro/ /
+AddType application/manifest+json .webmanifest
+AddType image/x-icon .ico
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType text/css "access plus 7 days"
