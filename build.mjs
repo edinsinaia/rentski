@@ -433,5 +433,4 @@ for (const lang of LANGS) {
 }
 writeFileSync(join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
-writeFileSync(join(DIST, '.htaccess'), `RewriteEngine On\nRewriteCond %{HTTPS} off\nRewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]\nRewriteCond %{HTTP_HOST} ^www\\. [NC]\nRewriteRule ^ https://rentski.ro%{REQUEST_URI} [L,R=301]\nErrorDocument 404 /index.html\n# vechile adrese WordPress\nRedirect 301 /ro/ /\nRedirect 301 /ro/prices/ /#preturi\nRedirect 301 /ro/about/ /\nRedirect 301 /ro/contact-us/ /#contact\nRedirect 301 /ro/sports-equipments/ /inchirieri-ski-snowboard-sinaia/\nRedirect 301 /en/ /\n<IfModule mod_expires.c>\nExpiresActive On\nExpiresByType text/css "access plus 7 days"\nExpiresByType application/javascript "access plus 7 days"\nExpiresByType image/svg+xml "access plus 30 days"\n</IfModule>\n`);
 console.log(`Scris ${urls.length} pagini în dist/ (${LANGS.join(', ')}).`);
