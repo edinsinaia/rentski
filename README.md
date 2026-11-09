@@ -57,3 +57,5 @@ Site-ul nu depinde de Romarg: `dist/` merge pe orice server. Pe Vercel: conectez
 `dist/` este inclus în repo. Pe server, în `public_html/_deploy/`, stă `deploy.php` (din folderul `deploy/` al acestui repo) și un fișier `.key` cu o cheie secretă. Apelul
 `https://rentski.ro/_deploy/deploy.php?key=<cheie>` descarcă `main` de pe GitHub și copiază `dist/` în `public_html`. Deci: modifici textul, rulezi `npm run build`, dai commit + push, apoi deschizi linkul de deploy. Claude face toți pașii de aici.
 Cheia nu este în repo. Dacă se pierde, se scrie alta în `public_html/_deploy/.key` din cPanel.
+
+Atenție: pe 5 nov 2026 scannerul anti-malware al Romarg (Imunify360) a golit `deploy.php` (versiunea veche folosea comenzi shell). Versiunea actuală folosește doar funcții PHP (curl intern, ZipArchive). Dacă linkul de deploy răspunde cu pagină goală, verifică în cPanel dacă `_deploy/deploy.php` are 0 bytes și reîncarcă-l din `deploy/` (upload zip + Extract din File Manager).
